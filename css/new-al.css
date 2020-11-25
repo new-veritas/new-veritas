@@ -1,0 +1,2778 @@
+html,body,#page
+{height:100%;color:#939598;}
+
+#page-wrapper
+{min-height:100%;min-width:900px;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/bg.jpg) fixed;}
+
+#header div.section,#featured div.section,#messages div.section,#main,#triptych,#footer
+{width:900px;margin-left:auto;margin-right:auto;}
+
+#header div.section
+{position:relative;}
+
+.region-header
+{float:left;margin:0 0 10px 4px;}
+
+.with-secondary-menu .region-header
+{margin-top:17px;}
+
+.without-secondary-menu .region-header
+{margin-top:17px;}
+
+#secondary-menu
+{position:absolute;right:0;top:0;width:480px;display:none;}
+
+#content,#sidebar-first,#sidebar-second,.region-triptych-first,.region-triptych-middle,.region-triptych-last,.region-footer-firstcolumn,.region-footer-secondcolumn,.region-footer-thirdcolumn,.region-footer-fourthcolumn
+{display:inline;float:left;position:relative;}
+
+.one-sidebar #content
+{width:710px;}
+
+.two-sidebars #content
+{width:470px;}
+
+.no-sidebars #content
+{width:960px;float:none;}
+
+#sidebar-first
+{width:174px;margin-right:15px;}
+
+#sidebar-second
+{width:225px;margin-left:15px;}
+
+#main-wrapper
+{height:auto;}
+
+.region-triptych-first,.region-triptych-middle,.region-triptych-last
+{margin:20px 20px 30px;width:280px;}
+
+.region-footer-firstcolumn,.region-footer-secondcolumn,.region-footer-thirdcolumn,.region-footer-fourthcolumn
+{padding:0 10px;width:220px;}
+
+#footer
+{width:900px;min-width:900px;}
+
+.file-icon
+{display:none;}
+
+body
+{line-height:1.5;font-size:12px;word-wrap:break-word;margin:0;padding:0;border:0;outline:0;}
+
+a:link,a:visited
+{text-decoration:none;color:#00667d;outline:none;}
+
+a:hover,a:active,a:focus
+{text-decoration:none;color:#939598;}
+
+h1,h2,h3,h4,h5,h6
+{margin:1.0em 0 0.5em;font-weight:inherit;}
+
+h1
+{font-size:17px;color:#00667d;}
+
+h2
+{color:#00667d;font-size:20px;}
+
+p
+{margin:0 0 10px;}
+
+img
+{outline:0;}
+
+li a.active
+{color:#00667d;}
+
+button:focus
+{outline:none;}
+
+button::-moz-focus-inner
+{border:0;}
+
+#page
+{margin:0 auto;padding:0 34px;width:900px;}
+
+#page,#main-wrapper,#main-menu-links li a.active,#main-menu-links li.active-trail a
+{background:#ffffff;}
+
+body,#site-slogan,.ui-widget,.comment-form label
+{font-family:'Arimo','Helvetica Neue',Helvetica,Arial,sans-serif;}
+
+#header,#footer-wrapper,#skip-link,ul.contextual-links,ul.links,ul.primary,.item-list .pager,div.field-type-taxonomy-term-reference,div.messages,div.meta,p.comment-time,table,.breadcrumb
+{font-family:'Arimo','Helvetica Neue',Helvetica,Arial,sans-serif;}
+
+input,textarea,select,a.button
+{font-family:'Arimo','Helvetica Neue',Helvetica,Arial,sans-serif;}
+
+tbody
+{border:none;}
+
+#skip-link
+{left:50%;margin-left:-5.25em;margin-top:0;position:absolute;width:auto;z-index:50;}
+
+#skip-link a,#skip-link a:link,#skip-link a:visited
+{background:#444;background:rgba(0,0,0,0.6);color:#fff;display:block;line-height:1.7;padding:1px 10px 2px 10px;text-decoration:none;-khtml-border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px;-webkit-border-top-left-radius:0;-webkit-border-top-right-radius:0;-webkit-border-bottom-left-radius:10px;-webkit-border-bottom-right-radius:10px;border-radius:0 0 10px 10px;}
+
+#skip-link a:hover,#skip-link a:active,#skip-link a:focus
+{outline:0;}
+
+#logo
+{float:left;padding:10px 15px 15px 10px;margin-right:3px;}
+
+#name-and-slogan
+{float:left;padding-top:34px;margin:0 0 30px 15px;}
+
+#site-name
+{color:#686868;line-height:1;}
+
+h1#site-name
+{margin:0;}
+
+#site-name a
+{font-weight:normal;}
+
+#site-slogan
+{margin-top:7px;word-spacing:0.1em;font-style:italic;}
+
+.region-header .block
+{float:left;margin:0 10px;padding:0;}
+
+.region-header .block .content
+{margin:0;padding:0;}
+
+.region-header .block ul
+{margin:0;padding:0;}
+
+.region-header .block li
+{list-style:none;list-style-image:none;padding:0;}
+
+.region-header .form-text
+{background:#fefefe;background:rgba(255,255,255,0.7);border-color:#ccc;border-color:rgba(255,255,255,0.3);margin-right:2px;width:120px;}
+
+.region-header .form-text:hover,.region-header .form-text:focus,.region-header .form-text:active
+{background:#fff;background:rgba(255,255,255,0.8);}
+
+.region-header
+{color:#eee;color:rgba(255,255,255,0.7);}
+
+.marker,.form-required
+{color:#D6DC25;}
+
+.region-header .block-menu
+{border:1px solid;border-color:#eee;border-color:rgba(255,255,255,0.2);padding:0;width:208px;}
+
+#block-menu-menu-kontaktmenu li a
+{border:none;}
+
+.region-header .block-menu li a
+{display:block;border-bottom:1px solid;border-bottom-color:#eee;border-bottom-color:rgba(255,255,255,0.2);padding:3px 0px;}
+
+.region-header .block-menu li a:hover,.region-header .block-menu li a:focus,.region-header .block-menu li a:active
+{text-decoration:none;background:rgba(255,255,255,0.15);}
+
+.region-header .block-menu li.last a
+{border-bottom:0;}
+
+.region-header #block-user-login
+{width:auto;}
+
+.region-header #block-user-login .content
+{margin-top:2px;}
+
+.region-header #block-user-login .form-item
+{float:left;margin:0;padding:0;}
+
+.region-header #block-user-login div.item-list,.region-header #block-user-login div.description
+{margin:0;}
+
+.region-header #block-user-login div.item-list
+{clear:both;}
+
+.region-header #block-user-login div.description
+{display:inline;}
+
+.region-header #block-user-login .item-list ul
+{padding:0;line-height:1;}
+
+.region-header #block-user-login .item-list li
+{list-style:none;float:left;padding:3px 0 1px;}
+
+.region-header #block-user-login .item-list li.last
+{padding-left:0.5em;}
+
+.region-header #block-user-login ul.openid-links li.last
+{padding-left:0;}
+
+.region-header #user-login-form li.openid-link a,.region-header #user-login li.openid-link a
+{padding-left:20px;}
+
+.region-header #block-user-login .form-actions
+{margin:4px 0 0;padding:0;clear:both;}
+
+.region-header #block-user-login input.form-submit
+{border:1px solid;border-color:#ccc;border-color:rgba(255,255,255,0.5);background:#eee;background:rgba(255,255,255,0.7);margin:4px 0;padding:3px 8px;}
+
+.region-header #block-user-login input.form-submit:hover,.region-header #block-user-login input.form-submit:focus
+{background:#fff;background:rgba(255,255,255,0.9);}
+
+.region-header #block-search-form
+{width:208px;}
+
+.region-header #block-search-form .form-text
+{width:154px;}
+
+.region-header .block-locale ul li
+{display:inline;padding:0 0.5em;}
+
+#main-menu{}
+
+#main-menu-links
+{margin:0;padding:0 15px;}
+
+#main-menu-links li
+{float:left;list-style:none;padding:0 1px;margin:0 1px;}
+
+#main-menu-links a
+{color:#6d6e71;float:left;height:2.4em;line-height:2.4em;padding:0 0.8em;text-decoration:none;}
+
+#main-menu-links a:hover,#main-menu-links a:focus,#main-menu-links a:active
+{color:#00667d;}
+
+#main-menu-links li a.active
+{border-bottom:none;}
+
+.featured #main-menu-links li a:active,.featured #main-menu-links li a.active
+{background:#f0f0f0;background:rgba(240,240,240,1.0);}
+
+#secondary-menu-links
+{float:right;margin:10px 10px 0;}
+
+#secondary-menu-links a:hover,#secondary-menu-links a:focus
+{text-decoration:underline;}
+
+#main
+{margin-bottom:48px;}
+
+#featured
+{text-align:center;font-weight:normal;line-height:1.4;padding:20px 0 45px;margin:0;background:#f0f0f0;background:rgba(30,50,10,0.08);border-bottom:1px solid #e7e7e7;text-shadow:1px 1px #fff;}
+
+#featured h2
+{line-height:1;}
+
+#featured p
+{margin:0;padding:0;}
+
+#highlighted
+{border-bottom:1px solid #d3d7d9;}
+
+.region-help
+{border:1px solid #d3d7d9;padding:0 1.5em;margin-bottom:30px;}
+
+.content
+{margin-top:10px;}
+
+h1#page-title
+{font-size:24px;line-height:1;}
+
+.node-teaser h2 a
+{color:#ffffff;}
+
+.page-shop .node-teaser h2 a
+{color:#00667d;}
+
+.node-teaser h2 a:hover
+{color:#939598;}
+
+.node-teaser
+{margin-bottom:4px;padding-top:15px;}
+
+.views-exposed-form .views-exposed-widget .form-submit
+{margin:8px 0 0 292px;}
+
+.page-jobs-und-karriere .views-exposed-widget .form-submit
+{margin:8px 0 0 277px;}
+
+.page-jobs-and-careers-job-market-bs .views-exposed-form .views-exposed-widget .form-submit
+{margin:8px 0 0 273px;}
+
+.page-jobs-and-careers-job-market-en .views-exposed-form .views-exposed-widget .form-submit
+{margin:8px 0 0 289px;}
+
+.page-allasok-es-karrierek-allasborze .views-exposed-form .views-exposed-widget .form-submit
+{margin:8px 0 0 254px;}
+
+.page-jobs-and-careers-job-market-fr .views-exposed-form .views-exposed-widget .form-submit
+{margin:8px 0 0 266px;}
+
+.page-jobs-and-careers-job-market-cn .views-exposed-form .views-exposed-widget .form-submit,.page-jobs-and-careers-job-market-kr .views-exposed-form .views-exposed-widget .form-submit
+{margin:8px 0 0 294px;}
+
+.page-is-ilanlari-kariyer .views-exposed-form .views-exposed-widget .form-submit
+{margin:8px 0 0 282px;}
+
+.page-empleo-y-carrera-bolsa-de-trabajo .views-exposed-form .views-exposed-widget .form-submit
+{margin:8px 0 0 280px;}
+
+.views-exposed-widgets
+{border-bottom:1px dotted #939598;margin:40px 0 10px;padding-bottom:10px;}
+
+.page-presse-und-medien 	.views-exposed-widgets,.page-press-and-media .views-exposed-widgets
+{border:none;margin:10px 0 0;}
+
+.page-presse-und-medien-termine .view-header
+{border:none;}
+
+.views-exposed-widgets label
+{float:left;}
+
+.views-exposed-form .views-exposed-widget
+{clear:both;float:none;}
+
+.view-content .node
+{border-bottom:1px dotted #939598;border-top:none;}
+
+.node-readmore a
+{background-color:#FFFFFF;border:1px solid #D3D7D9;font-size:12px;font-weight:bold;left:7px;padding:4px 15px 4px 13px;position:relative;top:-23px;}
+
+.node-teaser .content
+{clear:none;line-height:1.6;}
+
+.meta
+{font-size:0.857em;color:#68696b;margin-bottom:-5px;}
+
+.submitted .user-picture img
+{float:left;height:20px;margin:1px 5px 0 0;}
+
+.field-type-taxonomy-term-reference ul.links
+{padding:0;margin:0;list-style:none;}
+
+.field-type-taxonomy-term-reference ul.links li
+{float:left;padding:0;white-space:nowrap;}
+
+.link-wrapper
+{text-align:right;}
+
+.field-type-image img,.user-picture img
+{margin:0 0 1em;}
+
+.node-unpublished
+{margin:-20px -15px 0;padding:20px 15px 0;}
+
+.node-unpublished .comment-text .comment-arrow
+{border-left:1px solid #fff4f4;border-right:1px solid #fff4f4;}
+
+.sidebar .section
+{padding-top:10px;}
+
+.sidebar h2
+{border-top:1px solid #D6D6D6;font-size:14px;line-height:1.2;margin:10px 0 0;padding-top:15px;}
+
+.sidebar .block .content
+{font-size:0.914em;line-height:1.4;}
+
+.sidebar tbody
+{border:none;}
+
+.sidebar tr.even,.sidebar tr.odd
+{background:none;border-bottom:1px solid #d6d6d6;}
+
+#triptych-wrapper
+{background-color:#f0f0f0;background:rgba(30,50,10,0.08);border-top:1px solid #e7e7e7;}
+
+#triptych h2
+{color:#000;font-size:1.714em;margin-bottom:0.8em;text-shadow:0 1px 0 #fff;text-align:center;line-height:1;}
+
+#triptych .block
+{margin-bottom:2em;padding-bottom:2em;border-bottom:1px solid #dfdfdf;line-height:1.3;}
+
+#triptych .block.last
+{border-bottom:none;}
+
+#triptych .block ul li,#triptych .block ol li
+{list-style:none;}
+
+#triptych .block ul,#triptych .block ol
+{padding-left:0;}
+
+#triptych #block-user-login .form-text
+{width:185px;}
+
+#triptych #block-user-online p
+{margin-bottom:0;}
+
+#triptych #block-node-syndicate h2
+{overflow:hidden;width:0;height:0;}
+
+#triptych-last #block-node-syndicate
+{text-align:right;}
+
+#triptych #block-search-form .form-type-textfield input
+{width:185px;}
+
+#triptych-middle #block-system-powered-by
+{text-align:center;}
+
+#triptych-last #block-system-powered-by
+{text-align:right;}
+
+.tabs
+{font-family:'Arimo','Helvetica Neue',Helvetica,Arial,sans-serif;margin-bottom:20px;}
+
+.tabs ul.primary
+{padding:0 3px;margin:0;overflow:hidden;border:none;background:transparent
+url(https://www.veritas.ag/sites/all/themes/veritas/images/tabs-border.png) repeat-x left bottom;}
+
+.tabs ul.primary li
+{display:block;float:left;vertical-align:bottom;margin:0 5px 0 0;}
+
+.tabs ul.primary li.active a
+{border-bottom:1px solid #ffffff;}
+
+.tabs ul.primary li a
+{color:#000;background-color:#ededed;height:1.8em;line-height:1.9;display:block;font-size:0.929em;float:left;padding:0 10px 3px;margin:0;text-shadow:0 1px 0 #fff;-khtml-border-radius-topleft:6px;-moz-border-radius-topleft:6px;-webkit-border-top-left-radius:6px;border-top-left-radius:6px;-khtml-border-radius-topright:6px;-moz-border-radius-topright:6px;-webkit-border-top-right-radius:6px;border-top-right-radius:6px;}
+
+.tabs ul.primary li.active a
+{background-color:#ffffff;}
+
+.tabs ul.secondary
+{border-bottom:none;padding:0.5em 0;}
+
+.tabs ul.secondary li
+{display:block;float:left;}
+
+.tabs ul.secondary li:last-child
+{border-right:none;}
+
+.tabs ul.secondary li:first-child
+{padding-left:0;}
+
+.tabs ul.secondary li a
+{padding:0.25em 0.5em;}
+
+.tabs ul.secondary li a.active
+{background:#f2f2f2;border-bottom:none;-moz-border-radius:5px;-webkit-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;}
+
+ul.action-links
+{list-style:none;margin:5px;padding:0.5em 1em;}
+
+ul.action-links li
+{display:inline-block;margin-left:10px;}
+
+ul.action-links li a
+{padding-left:15px;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/add.png) no-repeat left center;margin:0 10px 0 0;}
+
+#messages
+{padding:20px 0 5px;margin:0 auto;}
+
+.featured #messages
+{background:#f0f0f0;background:rgba(30,50,10,0.08);}
+
+div.messages
+{margin:8px 15px;}
+
+#breadcrumb
+{margin:5px 3px -10px;}
+
+.breadcrumb
+{font-size:10px;color:#6d6e71;}
+
+.breadcrumb a
+{color:#939598;}
+
+.breadcrumb a:hover
+{color:#00667d;}
+
+.profile .user-picture
+{float:none;}
+
+.confirm-parent,.password-parent
+{width:34em;}
+
+.password-parent,div.form-item div.password-suggestions
+{position:relative;}
+
+.password-strength-text,.password-strength-title,div.password-confirm
+{font-size:0.82em;}
+
+.password-strength-text
+{margin-top:0.2em;}
+
+div.password-confirm
+{margin-top:2.2em;width:20.73em;}
+
+input.form-submit,a.button
+{background:#fff
+url(https://www.veritas.ag/sites/all/themes/veritas/images/buttons.png) 0 0 repeat-x;border:1px solid #e4e4e4;border-bottom:1px solid #b4b4b4;border-left-color:#d2d2d2;border-right-color:#d2d2d2;color:#3a3a3a;cursor:pointer;font-size:0.929em;font-weight:normal;text-align:center;margin-bottom:1em;margin-right:0.6em;padding:4px 16px;-khtml-border-radius:15px;-moz-border-radius:20px;-webkit-border-radius:15px;border-radius:15px;}
+
+a.button:link,a.button:visited,a.button:hover,a.button:focus,a.button:active
+{text-decoration:none;color:#5a5a5a;}
+
+fieldset
+{margin-top:10px;margin-bottom:32px;padding:0 0 10px;position:relative;top:12px;}
+
+.fieldset-wrapper
+{margin-top:25px;}
+
+.node-form .vertical-tabs .fieldset-wrapper
+{margin-top:0;}
+
+.filter-wrapper
+{top:0;padding:1em 0 0.2em;}
+
+.filter-help a
+{font-size:0.857em;padding:2px 20px 0;}
+
+.filter-wrapper .form-item label
+{margin-right:10px;}
+
+.filter-wrapper .form-item
+{padding:0 0 0.5em 0.5em;}
+
+.filter-guidelines
+{padding:0 1.5em 0 0.5em;}
+
+fieldset.collapsed
+{background:transparent;}
+
+fieldset legend
+{font-family:'Arimo','Helvetica Neue',Helvetica,Arial,sans-serif;position:absolute;top:0;}
+
+fieldset.collapsed legend
+{-khtml-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+
+fieldset legend a
+{color:#3b3b3b;}
+
+fieldset legend a:hover,fieldset legend a:focus,fieldset legend a:active
+{color:#000;}
+
+fieldset .fieldset-wrapper
+{padding:0 10px;}
+
+fieldset .fieldset-description
+{margin-top:5px;margin-bottom:1em;line-height:1.4;color:#3c3c3c;font-style:italic;}
+
+input
+{margin:2px 0;padding:2px 4px;}
+
+input,textarea
+{font-size:12px;color:#00667d;}
+
+textarea
+{line-height:1.5;}
+
+textarea.form-textarea,select.form-select
+{padding:2px 4px;color:#00667d;width:230px !important;}
+
+input.form-text,textarea.form-textarea,select.form-select
+{border:1px solid #ccc;width:220px;}
+
+.page-node-20 input#edit-submitted-telefonnummer,.page-node-20 input#edit-submitted-mobilnummer
+{width:70px;float:left;}
+
+.page-node-20 .form-item.webform-component-markup,.page-node-20 #webform-component-trenner,.page-node-20 #webform-component-trenner2
+{float:left;font-size:16px;margin:0 5px;}
+
+.page-node-20 .form-item.webform-component--telefonnummer,.page-node-20 .form-item.webform-component--mobilnummer
+{clear:left;float:left;font-size:16px;}
+
+.page-node-20 .form-item.webform-component--staatsangehoerigkeit
+{clear:left;}
+
+.page-node-20 input#edit-submitted-nummer,.page-node-20 input#edit-submitted-mobil-rufnummer
+{width:126px;margin-top:4px;}
+
+input.form-submit:hover,input.form-submit:focus
+{background:#dedede;}
+
+.password-suggestions ul li
+{margin-left:1.2em;}
+
+.form-item
+{margin-bottom:8px;margin-top:2px;}
+
+.form-item label
+{font-size:0.929em;}
+
+.form-type-radio label,.form-type-checkbox label
+{margin-left:4px;}
+
+.form-type-radio .description,.form-type-checkbox .description
+{margin-left:2px;}
+
+.form-actions
+{padding-top:10px;}
+
+.ua-firefox .MultiFile-identifier-anhaenge,.ua-chrome .MultiFile-identifier-anhaenge
+{margin-top:16px;}
+
+.ua-ie-8 .MultiFile-identifier-anhaenge,.ua-ie-9 .MultiFile-identifier-anhaenge
+{width:370px;}
+
+.ua-ie-10 .MultiFile-identifier-anhaenge,.ua-ie-11 .MultiFile-identifier-anhaenge
+{width:228px;margin-left:5px;margin-top:15px;}
+
+.ua-safari #edit-anhaenge
+{margin-top:16px;;}
+
+.contact-form #edit-name
+{width:75%;-khtml-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+
+.contact-form #edit-mail
+{width:75%;-khtml-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+
+.contact-form #edit-subject
+{width:75%;-khtml-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+
+.contact-form #edit-message
+{width:76.3%;-khtml-border-top-left-radius:4px;-khtml-border-top-right-radius:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;border-top-left-radius:4px;border-top-right-radius:4px;}
+
+.contact-form .resizable-textarea .grippie
+{width:76%;-khtml-border-bottom-left-radius:4px;-khtml-border-bottom-right-radius:4px;-moz-border-radius-bottomleft:4px;-moz-border-radius-bottomright:4px;-webkit-border-bottom-left-radius:4px;-webkit-border-bottom-right-radius:4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;}
+
+input.form-button-disabled,input.form-button-disabled:hover,input.form-button-disabled:focus,input.form-button-disabled:active,.form-disabled input,.form-disabled select,.form-disabled textarea
+{background:#ededed;border-color:#bbb;color:#717171;}
+
+.form-disabled .grippie
+{background-color:#ededed;border-color:#bbb;}
+
+.form-disabled label
+{color:#717171;}
+
+html.js input.form-autocomplete
+{background-position:100% 4px;}
+
+html.js input.throbbing
+{background-position:100% -16px;}
+
+.comment-form label
+{float:left;font-size:0.929em;width:120px;}
+
+.comment-form input,.comment-form .form-select
+{margin:0;-khtml-border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+
+.comment-form .form-type-textarea label
+{float:none;}
+
+.comment-form .form-item,.comment-form .form-radios,.comment-form .form-type-checkbox,.comment-form .form-select
+{margin-bottom:10px;overflow:hidden;}
+
+.comment-form .form-type-checkbox,.comment-form .form-radios
+{margin-left:120px;}
+
+.comment-form .form-type-checkbox label,.comment-form .form-radios label
+{float:none;margin-top:0;}
+
+.comment-form input.form-file
+{width:auto;}
+
+.no-sidebars .comment-form .form-text
+{width:800px;}
+
+.one-sidebar .comment-form .form-text
+{width:500px;}
+
+.two-sidebars .comment-form .form-text
+{width:320px;}
+
+.comment-form .form-item .description
+{font-size:0.786em;line-height:1.2;margin-left:120px;}
+
+#content h2.comment-form
+{margin-bottom:0.5em;}
+
+.comment-form .form-textarea
+{-khtml-border-radius-topleft:4px;-khtml-border-radius-topright:4px;-moz-border-radius-topleft:4px;-moz-border-radius-topright:4px;-webkit-border-top-left-radius:4px;-webkit-border-top-right-radius:4px;border-top-left-radius:4px;border-top-right-radius:4px;}
+
+.comment-form fieldset.filter-wrapper .fieldset-wrapper,.comment-form .text-format-wrapper .form-item
+{margin-top:0;margin-bottom:0;}
+
+.filter-wrapper label
+{width:auto;float:none;}
+
+.filter-wrapper .form-select
+{min-width:120px;}
+
+.comment-form fieldset.filter-wrapper .tips
+{font-size:0.786em;}
+
+#comment-body-add-more-wrapper .form-type-textarea label
+{margin-bottom:0.4em;}
+
+#edit-actions input
+{margin-right:0.6em;}
+
+div.password-suggestions
+{border:0;}
+
+.ui-widget-overlay
+{background:#222222;opacity:0.7;}
+
+div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane
+{padding:1em;}
+
+#forum .name
+{font-size:1.083em;}
+
+#forum .description
+{font-size:1em;}
+
+.page-search-node #page-title
+{border-top:1px dotted #939598;border-bottom:1px dotted #939598;margin:20px 0 -7px;padding:10px 0 13px 5px;}
+
+#block-search-form h2
+{float:left;font-size:12px;line-height:22px;margin-right:30px;color:#6d6e71;}
+
+.page-search-node #block-system-main label
+{width:89px;}
+
+.i18n-tr.page-search-node #block-system-main label
+{width:116px !important;}
+
+#block-search-form,.page-search-node #block-system-main
+{padding:25px 20px 20px 20px;width:420px;height:100px;background-color:#F9FBFA;margin-left:190px;margin-top:10px;}
+
+.page-search-node #block-system-main
+{height:auto;}
+
+.field-name-field-einspaltiger-text
+{padding:15px 0px 20px 10px;margin-left:190px;}
+
+.webform-confirmation
+{padding:0 0 20px 10px;margin-left:190px;}
+
+.webform-confirmation h1
+{border-bottom:1px dotted #939598;color:#00667d;font-size:16px;margin:15px 0 0;padding:0 0 10px 5px;}
+
+.field-name-field-einspaltiger-text h3
+{border-bottom:1px dotted #939598;color:#00667d;font-size:16px;margin:0;padding:20px 0 10px 5px;}
+
+.newlinks
+{margin-left:220px;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/list-items.gif) no-repeat scroll 0 -111px #FFFFFF;margin-right:20px;padding-left:12px;}
+
+.greyBox
+{padding:25px 20px 20px 20px;width:420px;background-color:#F9FBFA;margin-top:10px;}
+
+.captcha img,.captcha .description
+{margin-left:138px;}
+
+#search-block-form input.form-submit,#search-form input.form-submit
+{background:#FFFFFF;border:1px solid #CCCCCC;color:#00667d;display:block;font-size:12px;font-weight:bold;padding:4px 15px 19px 14px;text-decoration:none;height:20px;margin:18px 0 0 249px;-khtml-border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;}
+
+.i18n-tr #search-block-form input.form-submit,.i18n-tr #search-form input.form-submit
+{margin:18px 0 0 292px;}
+
+.i18n-en #search-block-form input.form-submit,.i18n-en #search-form input.form-submit
+{margin:18px 0 0 244px;}
+
+#search-block-form input.form-submit:hover,#search-block-form input.form-submit:focus,#search-form input.form-submit:hover,#search-form input.form-submit:focus
+{background-position:center bottom;color:#CCCCCC;}
+
+ol.search-results
+{padding-left:0;}
+
+.search-results li
+{border-bottom:1px solid #d3d7d9;padding-bottom:0.4285em;margin-bottom:0.5em;}
+
+.search-results li:last-child
+{border-bottom:none;padding-bottom:0;margin-bottom:1em;}
+
+.search-results .search-snippet-info
+{padding-left:0;}
+
+.shortcut-wrapper
+{margin:2.2em 0 1.1em 0;}
+
+.shortcut-wrapper h1#page-title
+{float:left;margin:0;}
+
+div.add-or-remove-shortcuts
+{padding-top:0.9em;}
+
+.overlay div.add-or-remove-shortcuts
+{padding-top:0.8em;}
+
+.page-admin #content img
+{margin-right:15px;}
+
+.page-admin #content .simpletest-image img
+{margin:0;}
+
+.page-admin-structure-block-demo .block-region
+{background:#ffff66;border:1px dotted #9f9e00;color:#000;font:90% "Lucida Grande","Lucida Sans Unicode",sans-serif;margin:5px;padding:5px;text-align:center;text-shadow:none;}
+
+.page-admin-structure-block-demo #featured .block-region
+{font-size:0.55em;}
+
+.page-admin-structure-block-demo #header .block-region
+{width:500px;}
+
+.page-admin #admin-dblog img
+{margin:0 5px;}
+
+#system-theme-settings fieldset
+{padding:0;}
+
+#system-theme-settings fieldset .fieldset-legend
+{margin-top:0;}
+
+div.admin .right,div.admin .left
+{width:49%;margin:0;}
+
+div.admin-panel
+{background:#fbfbfb;border:1px solid #ccc;margin:10px 0;padding:0 5px 5px;}
+
+div.admin-panel h3
+{margin:16px 7px;}
+
+div.admin-panel dt
+{border-top:1px solid #ccc;padding:7px 0 0;}
+
+div.admin-panel dd
+{margin:0 0 10px;}
+
+div.admin-panel .description
+{margin:0 0 14px 7px;}
+
+.overlay #main,.overlay #content
+{width:auto;float:none;}
+
+.overlay #page
+{padding:0 2em;}
+
+.overlay .region-page-top,.overlay #header,.overlay #page-title,.overlay #featured,.overlay #sidebar-first,.overlay #triptych-wrapper,.overlay #footer-wrapper
+{display:none;}
+
+.overlay-processed .field-type-image
+{display:block;float:none;}
+
+.overlay #messages
+{width:auto;}
+
+.node .poll
+{margin:2em 0;}
+
+.node .poll #edit-choice
+{margin:0 0 1.5em;}
+
+.poll .vote-form
+{text-align:left;}
+
+.poll .vote-form .choices
+{margin:0;}
+
+.poll .percent
+{font-size:0.857em;font-style:italic;margin-bottom:3em;margin-top:-3.2em;float:right;text-align:right;}
+
+.poll .text
+{clear:right;margin-right:2.25em;}
+
+.poll .total
+{font-size:0.929em;font-style:italic;text-align:right;clear:both;}
+
+.node .poll
+{margin:1.8em 0 0;}
+
+.node .poll .text
+{margin-right:6.75em;}
+
+.node .poll #edit-choice
+{margin:0 0 1.2em;}
+
+.poll .bar .foreground
+{background-color:#666;}
+
+#footer-wrapper .poll .bar
+{background-color:#666;}
+
+#footer-wrapper .poll .bar .foreground
+{background-color:#ddd;}
+
+#top
+{height:50px;width:900px;background-color:#ffffff;font-size:10px;position:fixed;top:0px;z-index:6;}
+
+#top img
+{margin:0 10px -13px 0;}
+
+.region-top .block
+{float:right;}
+
+.region-top .block a
+{color:#939598 !important;}
+
+a .graudunkelgrau
+{color:#939598;}
+
+a .blaugelbTime,a .blaugelbCountry
+{color:#00667d;}
+
+a .gelbblau
+{color:#D6DC25;}
+
+#header
+{position:fixed;top:0;height:60px;margin-top:50px;z-index:7;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/header-border.gif) repeat-x scroll 0 bottom #FFFFFF;}
+
+#hero
+{padding-top:127px;position:relative;z-index:0;}
+
+.schnellstart-menu ul li.leaf
+{list-style-image:none;list-style-type:none;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-leaf.gif) no-repeat 0 9px #ffffff;}
+
+.schnellstart-menu ul.menu
+{border-top:1px dotted #939598;border-bottom:0 !important;width:124px;margin-right:30px;margin:0 0 0 1px;padding:0;}
+
+.schnellstart-menu ul.menu li
+{margin:0;font-size:11px;color:#939598;border-bottom:1px dotted #939598;padding:5px 12px !important;}
+
+.schnellstart-menu ul.menu li a
+{color:#939598;}
+
+.parallax-viewport
+{position:relative;overflow:hidden;}
+
+.parallax-layer
+{position:absolute;}
+
+.parallax-viewport
+{width:900px;height:413px;background-color:#aebcc9;}
+
+#views_slideshow_cycle_teaser_section_startseite_slider-block
+{height:413px !important;}
+
+#widget_pager_bottom_startseite_slider-block .views-content-counter
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/slider-loader-ani.png) no-repeat 0 -45px transparent;width:15px;height:15px;padding-right:4px;cursor:pointer;float:left;text-indent:-9999px;position:relative;top:-22px;left:32px;z-index:5;}
+
+#views_slideshow_controls_text_previous_startseite_slider-block,#views_slideshow_controls_text_next_startseite_slider-block
+{display:none;}
+
+#views_slideshow_controls_text_pause_startseite_slider-block a
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/slider-loader-ani.png) no-repeat 0 -63px transparent;width:20px;height:20px;bottom:20px;left:8px;position:absolute;z-index:5;text-indent:-9999px;outline:none;}
+
+#views_slideshow_controls_text_pause_startseite_slider-block a.pause
+{background-position:0 -83px;}
+
+.impulskreise
+{float:left;height:130px;margin-top:-12px;width:200px;margin-left:3px;}
+
+.unternehmenswerte
+{margin-top:15px;}
+
+.unternehmenswerte p
+{margin:0 0 7px;}
+
+.page-presse-und-medien #page-title,.page-node-84 #page-title
+{border-top:1px dotted #939598;margin-top:20px;padding-top:16px;}
+
+.group-textbox
+{background-color:#ffffff;width:340px;height:168px;padding:12px 10px 0 20px;float:right;position:relative;top:-202px;right:16px;}
+
+.field-name-field-textbox-headline
+{color:#00667d;font-size:26px;line-height:30px;}
+
+.i18n-hu .field-name-field-textbox-headline
+{font-size:24px;}
+
+.field-name-field-textbox-text
+{font-size:12px;margin-top:8px;}
+
+.page-node-191 #views_slideshow_cycle_div_startseite_slider-block_2 .field-name-field-textbox-text
+{margin-top:2px;}
+
+.field-name-field-textbox-link
+{background-color:#bbbdc0;font-size:12px;font-weight:bold;width:124px;height:25px;padding:8px 0 0 10px;position:absolute;bottom:0;right:0;}
+
+.i18n-tr .field-name-field-textbox-link
+{width:157px;}
+
+.field-name-field-textbox-link a
+{color:#ffffff;padding:5px;}
+
+.field-name-field-textbox-link a:hover
+{color:#00667d !important;}
+
+.node
+{border-top:1px dotted #939598;}
+
+#node-1.node,.node-stellenausschreibung,.node-stellenausschreibung-en,.node-stellenausschreibung-es,.node-stellenausschreibung-hu,.node-stellenausschreibung-bs,.node-stellenausschreibung-fr,.node-stellenausschreibung-cn,.node-stellenausschreibung-kr
+{border-top:none;}
+
+.node-webform
+{border-top:none;}
+
+.node-webform .field-name-body
+{padding:0 5px 15px 0;margin-bottom:15px;}
+
+.webform-client-form,form.simplenews-subscribe
+{background-color:#F9FBFA;padding:7px 20px;width:425px;}
+
+label.option
+{width:auto;}
+
+label
+{font-weight:normal;font-size:12px !important;color:#6d6e71;display:inline-block !important;width:130px;}
+
+#webform-client-form-487 label
+{width:164px;}
+
+#webform-client-form-487 .form-type-radio label
+{width:28px;}
+
+#webform-client-form-487 .form-type-file label
+{width:172px;}
+
+.page-node-20 .form-item.webform-component--anhaenge label
+{color:#00667d;font-size:22px !important;margin:12px 0 10px;}
+
+.webform-component--vorname
+{clear:left;padding-top:15px;}
+
+.webform-component--anhaenge
+{clear:left;padding-top:10px;}
+
+.webform-component--schnellverweis
+{margin:-9px 0 0;background-color:#F9FBFA;padding:0 10px 18px 20px;position:absolute;right:0;width:205px;font-size:14px;}
+
+#views-exposed-form-publikationen-page-1 .description,#views-exposed-form-stellenb-rse-page .description,.view-publikationen .description
+{display:none;}
+
+form.jqtransformdone label
+{margin-top:4px;margin-right:8px;display:block;float:left;font-weight:normal;}
+
+.view-stellenb-rse form.jqtransformdone label
+{width:115px;}
+
+form.jqtransformdone div.rowElem
+{clear:both;padding:4px 0px;}
+
+#webform-component-publikationen
+{margin:8px 0 28px 139px;}
+
+#webform-component-publikationen .form-type-checkbox label
+{background-color:#FFFFFF;border:1px solid #CCCCCC;float:none;margin-left:12px;margin-top:6px;padding-left:32px;width:161px;cursor:default !important;}
+
+#webform-client-form-84 button.jqTransformButton
+{margin:0 0 0 278px;}
+
+button.jqTransformButton
+{margin:0 0 0 294px;padding:0px;border:none;background-color:transparent;cursor:pointer;overflow:visible;font-family:'Arimo',Arial;}
+
+*:first-child+html button.jqTransformButton[type]
+{width:1;}
+
+button.jqTransformButton span
+{display:block;float:left;padding:0px 4px 0px 0px;margin:0px;height:28px;}
+
+a.MultiFile-remove
+{background-color:#fff;border:1px solid #CCCCCC;font-size:12px;height:18px;margin:0 8px 0 0;padding:1px 7px 1px 8px;display:block;float:left;}
+
+button.jqTransformButton span span
+{background-color:#fff;border:1px solid #CCCCCC;color:#00667d;padding:4px 15px 0 14px;font-weight:normal;font-size:12px;display:block;text-decoration:none;height:18px !important;font-weight:bold;}
+
+.simplenews-subscribe .form-type-textfield
+{margin-top:10px;}
+
+.simplenews-subscribe input#edit-submit
+{background:none repeat scroll 0 0 #FFFFFF;border:1px solid #CCCCCC;color:#00667d;font-size:12px;font-weight:bold;height:26px;line-height:0;margin:10px 0 10px 270px;padding:0 10px 2px;text-align:center;text-decoration:none;-khtml-border-radius:0;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;}
+
+.newsletterHinweis
+{background-color:#F9FBFA;line-height:20px;padding:20px;width:426px;}
+
+button.jqTransformButton_hover span span
+{background-position:left -33px;color:#CCCCCC;}
+
+button.jqTransformButton_hover span
+{background-position:right -33px;}
+
+button.jqTransformButton_click span span
+{background-position:left -66px;}
+
+button.jqTransformButton_click span
+{background-position:right -66px;}
+
+* html button.jqTransformButton
+{height:20px;}
+
+* button.jqTransformButton span span
+{height:20px;}
+
+*+ html button.jqTransformButton
+{height:20px;}
+
+*+ button.jqTransformButton span span
+{height:20px;}
+
+.MultiFile-label
+{height:28px;clear:both;}
+
+.jqTransformInputWrapper
+{background:transparent
+url(https://www.veritas.ag/sites/all/themes/veritas/images/input/input_text_left.gif) no-repeat left top;height:31px;padding:0px;float:left;}
+
+.jqTransformInputInner
+{background:transparent
+url(https://www.veritas.ag/sites/all/themes/veritas/images/input/input_text_right.gif) no-repeat top right;padding:0px;margin:0px;}
+
+.jqTransformInputInner div
+{height:31px;margin:0px 0px 0px 8px;}
+
+.jqTransformInputInner div input
+{font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:18px;vertical-align:middle;height:31px;color:#404040;border:none;padding:8px 0px 0px 0px;margin:0px;background:transparent;}
+
+* html .jqTransformInputInner div input
+{padding:6px 0 0 0;margin:0 0 0 -8px;height:24px;}
+
+*+ html .jqTransformInputInner div input
+{padding:6px 0 0 0;margin-left:-10px;height:24px;}
+
+.jqTransformInputWrapper_hover
+{background-position:left -31px;}
+
+.jqTransformInputWrapper_hover div.jqTransformInputInner
+{background-position:right -31px;}
+
+.jqTransformInputWrapper_focus
+{background-position:left -62px;}
+
+.jqTransformInputWrapper_focus div.jqTransformInputInner
+{background-position:right -62px;}
+
+.jqTransformSafari .jqTransformInputInner div
+{position:relative;overflow:hidden;margin:0px 8px;}
+
+.jqTransformSafari .jqTransformInputInner div input
+{background-color:none;position:absolute;top:-10px;left:-2px;height:42px;padding-left:4px;}
+
+.jqTransformRadioWrapper
+{float:left;display:block;margin:0px 4px;margin-top:5px;}
+
+.jqTransformRadio
+{background:transparent
+url(https://www.veritas.ag/sites/all/themes/veritas/images/radio.gif) no-repeat center top;vertical-align:middle;height:21px;width:21px;display:block;}
+
+.form-type-radio label
+{margin-top:6px !important;}
+
+span.jqTransformCheckboxWrapper
+{display:block;float:left;margin-top:5px;}
+
+a.jqTransformCheckbox
+{background:transparent
+url(https://www.veritas.ag/sites/all/themes/veritas/images/checkbox.png) no-repeat center top;vertical-align:middle;height:21px;width:21px;display:block;}
+
+a.jqTransformChecked
+{background-position:center bottom;}
+
+.jqTransformSelectWrapper
+{width:45px;position:relative;height:20px;border:1px solid #CCCCCC;background-color:#fff;float:left;width:228px !important;margin:2px 0 10px;z-index:1;}
+
+.jqTransformSelectWrapper div span
+{font-size:12px;float:none;position:absolute;white-space:nowrap;height:20px;line-height:15px;padding:3px 0 0 7px;overflow:hidden;cursor:pointer;color:#00667d;}
+
+.jqTransformSelectWrapper  a.jqTransformSelectOpen
+{display:block;position:absolute;right:0px;width:24px;height:20px;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/select_right.gif) no-repeat center center;}
+
+.jqTransformSelectWrapper ul
+{position:absolute;width:228px !important;top:30px;left:-1px;list-style:none;background-color:#FFF;border:solid 1px #CCC;display:none;margin:0px;padding:0px;overflow:auto;overflow-y:auto;z-index:10;}
+
+.jqTransformSelectWrapper ul a
+{display:block;padding:5px;text-decoration:none;color:#333;background-color:#FFF;font-size:12px;}
+
+.jqTransformSelectWrapper ul a.selected
+{background:#EDEDED;color:#333;}
+
+.jqTransformSelectWrapper ul a:hover,.jqTransformSelectWrapper ul a.selected:hover
+{background:#00667d;color:#fff;}
+
+.jqTransformHidden
+{display:none;}
+
+.field-name-body h1,.field-name-field-imagetext h1
+{display:inline;}
+
+.field-name-body,.field-name-field-imagetext,.view-header
+{font-size:17px;line-height:30px;margin-top:-8px;border-bottom:1px dotted #939598;padding:0 5px 20px;}
+
+#node-123 .field-name-field-imagetext,#node-153 .field-name-field-imagetext,#node-235 .field-name-field-imagetext,#node-263 .field-name-field-imagetext,#node-292 .field-name-field-imagetext,#node-329 .field-name-field-imagetext,#node-407 .field-name-field-imagetext,#node-41 .field-name-field-imagetext
+{border:none;}
+
+.page-node-76 .field-name-field-imagetext
+{border:none;}
+
+.view-header
+{padding-left:1px;}
+
+.field-name-body p,.field-name-field-imagetext p
+{display:inline;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;-hyphens:auto;hyphens:auto;}
+
+.page-presse-und-medien-aktuelles .field-content
+{-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;-hyphens:auto;hyphens:auto;}
+
+.ZweiSpalten,.ZweiSpaltenZweiDrittel,.ZweiDrittelTextLinks,.ZweiDrittelTextRechts
+{font-size:12px;line-height:22px;padding:10px 6px 0px 6px;margin-bottom:-10px;margin-top:12px;-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;-hyphens:auto;hyphens:auto;}
+
+.ZweiSpaltenZweiDrittel
+{width:460px;float:left;}
+
+.ZweiDrittelTextLinks
+{padding:0 15px 10px 6px;width:459px;float:left;}
+
+.ZweiDrittelTextRechts
+{padding:10px 15px 10px 6px;width:459px;float:right;}
+
+.field-name-field-ansprechpartner
+{background-color:#F9FBFA;float:right;margin-top:-15px;padding:10px 5px 6px 15px;width:208px;font-size:14px;}
+
+.node-unterseite .field-name-field-ansprechpartner
+{margin-top:20px;}
+
+.page-node-37 .field-name-field-ansprechpartner
+{margin-top:20px;}
+
+.field-name-field-ansprechpartner h3
+{color:#00667d;font-size:17px;font-weight:normal;margin-bottom:5px;margin-top:0;}
+
+.field-name-field-ansprechpartner img
+{margin-bottom:-10px;}
+
+.field-name-field-text img
+{margin-top:10px;float:right;}
+
+#node-19 .field-name-field-text,#node-111 .field-name-field-text
+{font-size:12px;line-height:22px;padding:10px 6px 0px 6px;-moz-column-count:1;-moz-column-gap:0;-webkit-column-count:1;-webkit-column-gap:0;column-count:1;column-gap:0;}
+
+p a
+{color:#D6DC25 !important;}
+
+p a:hover
+{color:#00667d !important;}
+
+.field-name-field-schnellnavigation,.CILink
+{color:#00667d !important;}
+
+.CILink:hover
+{color:#D6DC25 !important;}
+
+.field-name-field-teaser .field-items
+{width:720px;}
+
+.field-name-field-teaser .field-items .field-item
+{width:230px;float:left;margin:20px 10px 5px 0;font-size:12px;height:146px;}
+
+.page-node-46 .field-name-field-teaser .field-items .field-item,.page-node-115 .field-name-field-teaser .field-items .field-item,.page-node-149 .field-name-field-teaser .field-items .field-item,.page-node-412 .field-name-field-teaser .field-items .field-item,.page-node-241 .field-name-field-teaser .field-items .field-item,.page-node-336 .field-name-field-teaser .field-items .field-item,.page-node-268 .field-name-field-teaser .field-items .field-item,.page-node-297 .field-name-field-teaser .field-items .field-item,.page-node-709 .field-name-field-teaser .field-items .field-item
+{width:710px;}
+
+.page-node-46 .field-name-field-teaser .field-items .field-item  p,.page-node-115 .field-name-field-teaser .field-items .field-item  p,.page-node-149 .field-name-field-teaser .field-items .field-item  p,.page-node-412 .field-name-field-teaser .field-items .field-item  p,.page-node-241 .field-name-field-teaser .field-items .field-item  p,.page-node-336 .field-name-field-teaser .field-items .field-item  p,.page-node-268 .field-name-field-teaser .field-items .field-item  p,.page-node-297 .field-name-field-teaser .field-items .field-item  p,.page-node-709 .field-name-field-teaser .field-items .field-item  p
+{display:block;}
+
+.field-name-field-teaser .field-items .field-item  p
+{display:inline;}
+
+.field-name-field-teaser .field-items .field-item  div
+{padding:0 5px;}
+
+.field-name-field-teaser h2
+{display:inline;font-size:12px;}
+
+.block-edge-suite
+{margin-top:-10px;}
+
+.sf-depth-2:hover .sub2
+{top:-19px !important;}
+
+.sf-depth-2:hover .sub3
+{top:-39px !important;}
+
+.sf-depth-2:hover .sub4
+{top:-59px !important;}
+
+#footer-wrapper
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/header-border.gif) repeat-x scroll 0 top #FFFFFF;color:#939598;font-size:12px;padding:7px 0 17px;}
+
+#footer-wrapper  #block-block-2 p
+{font-size:10px;margin:0;}
+
+#footer .block-menu
+{float:right;}
+
+#footer .block-menu .content
+{margin-top:0;line-height:10px;}
+
+#footer .block-menu ul li.leaf
+{list-style-image:none;list-style-type:none;float:left;padding-left:4px;}
+
+#footer .block-menu  ul.menu
+{margin:0;padding:0;}
+
+#footer .block-menu  ul.menu li
+{margin:0;font-size:11px;}
+
+#footer .block-menu  ul.menu li a
+{color:#939598;}
+
+#footer .block-menu  ul.menu li a:hover,#footer .block-menu  ul.menu li a:active
+{color:#00667d;}
+
+.group-themenbild-textbox
+{background-color:#ffffff;height:auto;padding:10px 10px 8px 15px;position:absolute;right:15px;top:48px;width:340px;z-index:5;}
+
+#sidebar-first ul li.leaf,#sidebar-second ul li.leaf
+{list-style-image:none;list-style-type:none;}
+
+#sidebar-first .content > ul
+{border-top:1px dotted #939598;border-bottom:1px dotted #939598;margin:0 0 0 1px;padding:0;width:170px;}
+
+#sidebar-first .content > ul > li
+{border-bottom:1px dotted #939598;}
+
+#sidebar-first .content > ul > li.last
+{border:medium none;}
+
+#sidebar-first .locations-menu .content > ul > li.last
+{border-bottom:1px dotted #939598;}
+
+#sidebar-first ul li,#sidebar-second ul li
+{margin:0;font-size:11px;color:#939598;padding:5px 2px;list-style-image:none;list-style-type:none;}
+
+#sidebar-second ul li
+{margin:0 0 0 6px;;}
+
+#sidebar-first ul.menu li a
+{color:#939598;outline:none;}
+
+#sidebar-first .content > ul.menu > li > a.menu-item-zertifikate.active
+{color:#939598 !important;}
+
+#sidebar-first .content > ul.menu > li > a.menu-item-zertifikate.active:hover
+{color:#00667d !important;}
+
+#sidebar-first .content > ul.menu > li > a:hover,#sidebar-first .content > ul.menu > li > a:active,#sidebar-first .content > ul.menu > li > a.active
+{color:#00667d;margin-left:-10px;padding-left:10px;}
+
+#sidebar-first ul.menu li ul li a:hover,#sidebar-first ul.menu li ul li a:active,#sidebar-first ul.menu li ul li a.active
+{margin-left:-10px;padding-left:10px;color:#6d6e71;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-leaf.gif) no-repeat scroll 0 -18px transparent;}
+
+#sidebar-second ul li a:hover,#sidebar-second ul li a:active,#sidebar-second ul li a.active,#sidebar-second ul li a.hovered
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-leaf.gif) no-repeat scroll 0 -18px transparent;color:#6d6e71;margin-left:-10px;padding-left:10px;}
+
+#sidebar-first ul li ul,#sidebar-second ul
+{background-color:#f9fbfa;margin-top:7px;padding-left:10px;}
+
+.field-name-field-schnellnavigation
+{width:170px;margin-top:22px;position:absolute;left:-185px;text-align:right;line-height:21px;text-transform:uppercase;}
+
+#block-superfish-1,#block-superfish-2,#block-superfish-3,#block-superfish-4,#block-superfish-5,#block-superfish-6,#block-superfish-7,#block-superfish-8,#block-superfish-9
+{margin-top:12px;}
+
+a.sf-depth-1
+{color:#6d6e71;margin:1px 0 0 17px;}
+
+.active-trail a.sf-depth-1,a.sf-depth-1:hover,#sidebar-first .content > ul >li > a.active-trail
+{color:#00667d !important;}
+
+ul#superfish-1 li ul li a,ul#superfish-2 li ul li a,ul#superfish-3 li ul li a,ul#superfish-4 li ul li a,ul#superfish-5 li ul li a,ul#superfish-6 li ul li a,ul#superfish-7 li ul li a,ul#superfish-8 li ul li a,ul#superfish-9 li ul li a
+{color:#939598;margin:9px 0 0 16px;padding-left:10px;font-size:11px;}
+
+ul#superfish-1 li ul li.sfHover > a,ul#superfish-2 li ul li.sfHover > a,ul#superfish-3 li ul li.sfHover > a,ul#superfish-4 li ul li.sfHover > a,ul#superfish-5 li ul li.sfHover > a,ul#superfish-6 li ul li.sfHover > a,ul#superfish-7 li ul li.sfHover > a,ul#superfish-8 li ul li.sfHover > a,ul#superfish-9 li ul li.sfHover > a
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-leaf.gif) no-repeat scroll 0 2px transparent;text-decoration:none;color:#00667d;}
+
+ul#superfish-1 li ul li > a:hover,ul#superfish-2 li ul li > a:hover,ul#superfish-3 li ul li > a:hover,ul#superfish-4 li ul li > a:hover,ul#superfish-5 li ul li > a:hover,ul#superfish-6 li ul li > a:hover,ul#superfish-7 li ul li > a:hover,ul#superfish-8 li ul li > a:hover,ul#superfish-9 li ul li > a:hover
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-leaf.gif) no-repeat scroll 0 2px transparent;text-decoration:none;}
+
+ul#superfish-1 > li > ul > li > a:hover,ul#superfish-2 > li > ul > li > a:hover,ul#superfish-3 > li > ul > li > a:hover,ul#superfish-4 > li > ul > li > a:hover,ul#superfish-5 > li > ul > li > a:hover,ul#superfish-6 > li > ul > li > a:hover,ul#superfish-7 > li > ul > li > a:hover,ul#superfish-8 > li > ul > li > a:hover,ul#superfish-9 > li > ul > li > a:hover
+{color:#00667d;}
+
+ul#superfish-1 li ul li ul li a:hover,ul#superfish-2 li ul li ul li a:hover,ul#superfish-3 li ul li ul li a:hover,ul#superfish-4 li ul li ul li a:hover,ul#superfish-5 li ul li ul li a:hover,ul#superfish-6 li ul li ul li a:hover,ul#superfish-7 li ul li ul li a:hover,ul#superfish-8 li ul li ul li a:hover,ul#superfish-9 li ul li ul li a:hover
+{background-position:0 -19px;}
+
+.sf-menu li li:hover > ul,.sf-menu li li.sfHover > ul
+{left:205px;top:0;}
+
+.sf-menu li
+{float:left;min-width:93px;}
+
+.sf-menu > #menu-543-1.sfHover
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-bg.png) no-repeat scroll 0 1px transparent;height:29px;outline:0 none;width:109px;margin-right:-16px;}
+
+#superfish-1 > li > ul
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-bg.png) no-repeat scroll 0 -49px transparent;}
+
+#superfish-2 > li > ul,#superfish-3 > li > ul,#superfish-4 > li > ul,#superfish-5 > li > ul,#superfish-6 > li > ul,#superfish-7 > li > ul,#superfish-8 > li > ul,#superfish-9 > li > ul
+{background:
+url(menu-bg-ru.png) no-repeat scroll 0 -49px transparent;}
+
+#superfish-1 > li > ul,#superfish-2 > li > ul,#superfish-3 > li > ul,#superfish-4 > li > ul,#superfish-5 > li > ul,#superfish-6 > li > ul,#superfish-7 > li > ul,#superfish-8 > li > ul,#superfish-9 > li > ul
+{height:164px;margin-top:-3px;padding-top:5px;position:absolute;width:509px;z-index:-1;}
+
+#superfish-1 > li#menu-555-1 > ul
+{width:482px !important;}
+
+.sf-menu > #menu-1529-2,.sf-menu > #menu-1658-4,.sf-menu > #menu-1674-5,.sf-menu > #menu-1666-3,.sf-menu > #menu-1789-6,.sf-menu > #menu-1828-7,.sf-menu > #menu-2220-8
+{width:78px !important;margin-right:-16px;}
+
+.sf-menu > #menu-1529-2.sfHover,.sf-menu > #menu-1658-4.sfHover,.sf-menu > #menu-1674-5.sfHover,.sf-menu > #menu-1666-3.sfHover,.sf-menu > #menu-1789-6.sfHover,.sf-menu > #menu-1828-7.sfHover,.sf-menu > #menu-2220-8.sfHover
+{background:
+url(menu-bg-ru.png) no-repeat scroll 0 1px transparent;height:29px;outline:0 none;width:78px;margin-right:-16px;}
+
+.sf-menu > #menu-6813-9
+{width:58px !important;margin-right:-31px;}
+
+.sf-menu > #menu-6813-9.sfHover
+{background:
+url(menu-bg-ru.png) no-repeat scroll -515px -224px transparent;height:29px;outline:0 none;width:58px !important;margin-right:-31px;}
+
+li#menu-1529-2 ul > li > ul > li,li#menu-1658-4 ul > li > ul > li,li#menu-1666-3 ul > li > ul > li,li#menu-1789-6 ul > li > ul > li,li#menu-1828-7 ul > li > ul > li,li#menu-2220-8 ul > li > ul > li,li#menu-6813-9 ul > li > ul > li
+{margin-left:-30px;}
+
+li#menu-1674-5 ul > li > ul > li
+{margin-left:-30px;}
+
+.sf-menu > #menu-555-1,.sf-menu > #menu-1534-2,.sf-menu > #menu-1637-5,.sf-menu > #menu-1681-5,.sf-menu > #menu-1804-6,.sf-menu > #menu-1832-7
+{width:128px;}
+
+.sf-menu > #menu-1629-4
+{width:117px;}
+
+.sf-menu > #menu-1832-7
+{width:83px;margin-right:-8px;}
+
+.sf-menu > #menu-2223-8,.sf-menu > #menu-6825-9
+{width:139px;}
+
+.sf-menu > #menu-1618-3
+{width:128px;}
+
+.sf-menu > #menu-1534-2.sfHover,.sf-menu > #menu-1618-3.sfHover,.sf-menu > #menu-1637-5.sfHover,.sf-menu > #menu-1629-4.sfHover,.sf-menu > #menu-1681-5.sfHover,.sf-menu > #menu-1804-6.sfHover,.sf-menu > #menu-1832-7.sfHover,.sf-menu > #menu-2223-8.sfHover,.sf-menu > #menu-6825-9.sfHover
+{background:
+url(menu-bg-ru.png) no-repeat scroll -114px 1px transparent;height:29px;outline:0 none;width:139px;margin-right:-11px;}
+
+.sf-menu > #menu-1681-5
+{width:184px !important;margin-right:-16px;}
+
+.sf-menu > #menu-1681-5.sfHover
+{background:
+url(menu-bg-ru.png) no-repeat scroll -515px -132px transparent;width:184px;margin-right:-16px;}
+
+.sf-menu > #menu-1629-4.sfHover
+{background-position:-496px 1px;margin-right:-22px;}
+
+.sf-menu > #menu-1832-7.sfHover
+{background-position:-516px -91px;width:96px;}
+
+.sf-menu > #menu-2223-8.sfHover,.sf-menu > #menu-6825-9.sfHover
+{background-position:-515px -49px;margin-right:-13px;width:152px;}
+
+li#menu-1534-2 > ul,li#menu-1618-3 > ul,li#menu-1681-5 > ul,li#menu-1629-4 > ul,li#menu-1804-6 > ul,li#menu-1832-7 > ul,li#menu-2223-8 > ul,li#menu-6825-9 > ul
+{background-position:0 -223px;}
+
+li#menu-1534-2 ul > li > ul > li,li#menu-1618-3 ul > li > ul > li,li#menu-1681-5 ul > li > ul > li,li#menu-1629-4 ul > li > ul > li,li#menu-1804-6 ul > li > ul > li,li#menu-1832-7 ul > li > ul > li,li#menu-2223-8 ul > li > ul > li,li#menu-6825-9 ul > li > ul > li
+{margin-left:-62px;min-width:190px;}
+
+.sf-menu > #menu-1860-2,.sf-menu > #menu-1661-4,.sf-menu > #menu-1669-3,.sf-menu > #menu-1820-6,.sf-menu > #menu-1836-7
+{width:104px;}
+
+.sf-menu > #menu-1637-5
+{width:128px;}
+
+.sf-menu > #menu-2225-8
+{width:117px;}
+
+.sf-menu > #menu-6829-9
+{width:119px;margin-right:9px;}
+
+.sf-menu > #menu-1860-2.sfHover,.sf-menu > #menu-1661-4.sfHover,.sf-menu > #menu-1669-3.sfHover,.sf-menu > #menu-1820-6.sfHover,.sf-menu > #menu-1836-7.sfHover,.sf-menu > #menu-1637-5.sfHover,.sf-menu > #menu-2225-8.sfHover,.sf-menu > #menu-6829-9.sfHover
+{background:
+url(menu-bg-ru.png) no-repeat scroll -261px 1px transparent;height:29px;outline:0 none;width:117px;margin-right:-13px;}
+
+.sf-menu > #menu-1637-5.sfHover
+{background-position:-114px 1px;}
+
+.sf-menu > #menu-2225-8.sfHover,.sf-menu > #menu-6829-9.sfHover
+{background-position:-261px 1px;}
+
+.sf-menu > #menu-1637-5.sfHover
+{width:141px;}
+
+.sf-menu > #menu-2225-8.sfHover,.sf-menu > #menu-6829-9.sfHover
+{background-position:-496px 1px;width:130px;}
+
+li#menu-728-1 > 
+ul,li#menu-1860-2 > ul,li#menu-1637-5 > ul,li#menu-1661-4 > ul,li#menu-1669-3 > ul,li#menu-1820-6 > ul,li#menu-1836-7 > ul,li#menu-6829-9 > ul
+{background-position:0 -400px;}
+
+li#menu-1637-5 > ul,li#menu-2225-8 > ul,li#menu-6829-9 > ul
+{background-position:0 -752px;}
+
+li#menu-1860-2 ul > li > ul > li,li#menu-1661-4 ul > li > ul > li,li#menu-1669-3 ul > li > ul > li,li#menu-1820-6 ul > li > ul > li,li#menu-1836-7 ul > li > ul > li
+{margin-left:-42px;min-width:130px;}
+
+li#menu-1637-5 ul > li > ul > li,li#menu-2225-8 ul > li > ul > li,li#menu-6829-9 ul > li > ul > li
+{margin-left:-8px;min-width:130px;}
+
+.sf-menu > #menu-1537-2,.sf-menu > #menu-1664-4,.sf-menu > #menu-1671-3,.sf-menu > #menu-1824-6,.sf-menu > #menu-1840-7,.sf-menu > #menu-2229-8,.sf-menu > #menu-6833-9
+{width:116px;}
+
+.sf-menu > #menu-1537-2.sfHover,.sf-menu > #menu-1664-4.sfHover,.sf-menu > #menu-1694-5.sfHover,.sf-menu > #menu-1671-3.sfHover,.sf-menu > #menu-1824-6.sfHover,.sf-menu > #menu-1840-7.sfHover,.sf-menu > #menu-2229-8.sfHover,.sf-menu > #menu-6833-9.sfHover
+{background:
+url(menu-bg-ru.png) no-repeat scroll -384px 1px transparent;height:29px;outline:0 none;width:114px;margin-right:-14px;}
+
+.sf-menu > #menu-1694-5
+{width:140px;}
+
+.sf-menu > #menu-1694-5.sfHover
+{background:
+url(menu-bg-ru.png) no-repeat scroll -515px -179px transparent;width:140px;}
+
+li#menu-1092-1 > ul,li#menu-1537-2 > ul,li#menu-1664-4 > ul,li#menu-1694-5 > ul,li#menu-1671-3 > ul,li#menu-1824-6 > ul,li#menu-1840-7 > ul,li#menu-2229-8 > ul,li#menu-6833-9 > ul
+{background-position:0 -576px;}
+
+li#menu-1537-2 ul > li > ul > li,li#menu-1664-4 ul > li > ul > li,li#menu-1694-5 ul > li > ul > li,li#menu-1671-3 ul > li > ul > li,li#menu-1824-6 ul > li > ul > li,li#menu-1840-7 ul > li > ul > li,li#menu-2229-8 ul > li > ul > li,li#menu-6833-9 ul > li > ul > li
+{margin-left:-80px;min-width:170px;}
+
+li#menu-1092-1 ul > li > ul > li
+{margin-left:-94px;min-width:170px;}
+
+.sf-menu > #menu-555-1
+{width:128px;}
+
+.sf-menu > #menu-555-1.sfHover,.sf-menu > #menu-739-1.sfHover,.sf-menu > #menu-728-1.sfHover,.sf-menu > #menu-1092-1.sfHover,.sf-menu > #menu-6829-9.sfHover
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-bg.png) no-repeat scroll -114px 1px transparent;height:29px;outline:0 none;width:139px;margin-right:-11px;}
+
+.sf-menu > #menu-739-1
+{width:115px;}
+
+.sf-menu > #menu-739-1.sfHover
+{background-position:-384px 1px;width:130px;margin-right:-15px;}
+
+.sf-menu > #menu-728-1
+{width:104px;}
+
+.sf-menu > #menu-728-1.sfHover
+{background-position:-261px 1px;width:117px;margin-right:-13px;}
+
+.sf-menu > #menu-1092-1
+{width:116px;}
+
+.sf-menu > #menu-1092-1.sfHover
+{background-position:-384px 1px;width:130px;margin-right:-14px;}
+
+li#menu-728-1 ul > li > ul > li
+{margin-left:-52px;min-width:130px;}
+
+li#menu-555-1 > ul
+{background-position:0 -223px;}
+
+li#menu-555-1 ul > li > ul > li
+{margin-left:-62px;min-width:190px;}
+
+#superfish-1 > li#menu-728-1 > ul
+{width:454px !important;}
+
+li#menu-550-1
+{position:absolute;bottom:37px;right:-342px;}
+
+li#menu-1606-2,li#menu-2613-4,li#menu-2617-3,li#menu-2621-5,li#menu-2625-6,li#menu-2629-7,li#menu-2633-8,li#menu-6814-9
+{position:absolute;bottom:37px;right:-318px;}
+
+li#menu-1102-1,li#menu-1607-2,li#menu-2614-4,li#menu-2618-3,li#menu-2622-5,li#menu-2626-6,li#menu-2630-7,li#menu-2634-8,li#menu-6827-9
+{position:absolute;right:-317px;bottom:36px;}
+
+li#menu-1103-1
+{position:absolute;right:-283px;bottom:36px;}
+
+li#menu-1865-2,li#menu-2615-4,li#menu-2619-3,li#menu-2627-6,li#menu-2631-7
+{position:absolute;right:-297px;bottom:36px;}
+
+li#menu-2623-5,li#menu-2635-8,li#menu-6831-9
+{position:absolute;right:-330px;bottom:36px;}
+
+li#menu-1104-1,li#menu-1609-2,li#menu-2616-4,li#menu-2620-3,li#menu-2624-5,li#menu-2628-6,li#menu-2632-7,li#menu-2636-8,li#menu-6835-9
+{position:absolute;right:-233px;bottom:36px;}
+
+li#menu-1104-1
+{bottom:23px;}
+
+a.menu-read-more
+{color:#ffffff !important;}
+
+a.menu-read-more:hover
+{background:none !important;color:#00667d !important;}
+
+#sidebar-first .locations-menu ul.menu li a,#sidebar-first .locations-menu ul.menu li a:hover,#sidebar-first .locations-menu ul.menu li a:active,#sidebar-first .locations-menu ul.menu li a.active,#block-menu-menu-ceo-newsletter-abonnieren ul.menu li a,#block-menu-menu-ceo-newsletter-abonnieren ul.menu li a:hover,#block-menu-menu-ceo-newsletter-abonnieren ul.menu li a:active,#block-menu-menu-ceo-newsletter-abonnieren ul.menu li a.active,#block-menu-menu-certificates ul.menu li a,#block-menu-menu-certificates ul.menu li a:hover,#block-menu-menu-certificates ul.menu li a:active,#block-menu-menu-certificates ul.menu li a.active
+{padding-left:10px;margin-left:0 !important;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-leaf.gif) no-repeat scroll 0 -18px transparent;}
+
+.locations-menu
+{margin-top:146px;}
+
+#block-menu-menu-ceo-newsletter-abonnieren,#block-menu-menu-certificates
+{margin-top:112px;}
+
+#sidebar-first .locations-menu .content > ul
+{border-bottom:none;}
+
+#adressen td
+{height:268px;width:222px;vertical-align:bottom;}
+
+#adressen h4
+{border-top:1px dotted #D6D6D6;padding-top:5px;}
+
+li a.showInfo
+{color:#939598;}
+
+#infoDiv h4,#infoDiv a
+{color:#00667d !important;}
+
+#infoDiv a:hover
+{color:#D6DC25 !important;}
+
+#infoDiv h4,#infoDiv p
+{padding-left:5px;}
+
+#accordion
+{width:710px;margin-left:auto;margin-right:auto;}
+
+.faq .accordionButton
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/accordion-arrows.gif) no-repeat scroll 8px 9px #F9FBFA;color:#00667d;padding-left:20px;margin:10px 0 0;}
+
+.faq .accordionButton:hover,.faq .on
+{background-position:8px -54px !important;;background-color:#f3f4f5;}
+
+.faq .accordionContent
+{width:580px;padding-left:10px;}
+
+.accordionButton
+{padding:5px 20px 5px 5px;margin:5px 0 0;width:680px;float:left;_float:none;border-bottom:1px solid #FFFFFF;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/accordion-arrows.gif) no-repeat 105px 11px #F9FBFA;cursor:pointer;text-transform:uppercase;}
+
+.page-node-19 .accordionButton
+{background-position:82px 11px;}
+
+.page-node-19 .accordionButton.over,.page-node-19 .accordionButton.on
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/accordion-arrows.gif) no-repeat 82px -52px #F3F4F5 !important;}
+
+.page-node-19 .accordionButton.bisHeute
+{background-position:105px 11px;}
+
+.page-node-19 .accordionButton.bisHeute.over,.page-node-19 .accordionButton.bisHeute.on
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/accordion-arrows.gif) no-repeat 105px -52px #F3F4F5 !important;}
+
+.faq .accordionContent
+{margin-top:10px;}
+
+.views-accordion-termine-page-header .accordionButton,.views-accordion-pressemeldungen-page-header .accordionButton
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/accordion-arrows2.gif) no-repeat 95px 11px #F9FBFA;}
+
+.accordionButton:hover,.ui-state-active .accordionButton
+{background-position:105px -52px;background-color:#f3f4f5;}
+
+.view-termine .ui-state-active .accordionButton,.view-pressemeldungen .ui-state-active .accordionButton,.views-accordion-pressemeldungen-page-header .accordionButton:hover
+{background-position:95px -25px;}
+
+.view-pressemeldungen p
+{-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;-hyphens:auto;hyphens:auto;}
+
+.accordionContent
+{width:705px;float:left;_float:none;}
+
+.row_historie
+{border-bottom:1px dotted #939598;height:275px;width:705px;}
+
+.row_historieNoImage
+{border-bottom:1px dotted #939598;padding-top:10px;}
+
+.col_OneThirdLeft
+{background-color:#f9fbfa;position:relative;float:left;width:215px;height:255px;margin:10px 5px 5px 0;padding:0 5px;}
+
+.col_TwoThirdsLeft p,.col_OneThirdLeft p
+{position:absolute;bottom:0;}
+
+.col_TwoThirdsRight
+{background-color:#f9fbfa;width:472px;height:255px;margin:10px 0 5px 0;float:right;}
+
+.col_TwoThirdsRight  img
+{margin-top:0;}
+
+.col_TwoThirdsLeft
+{background-color:#F9FBFA;float:left;height:255px;margin:10px 5px 5px 0;padding:0 5px;position:relative;width:450px;}
+
+.col_OneThirdRight
+{background-color:#f9fbfa;width:236px;min-height:255px;margin:10px 0 5px 0;float:right;}
+
+.col_OneThirdRight img
+{margin-top:0;}
+
+.col_TotalWidth
+{background-color:#f9fbfa;padding:0 5px;}
+
+.jahreszahl
+{font-size:16px;color:#00667d;padding:5px 0 15px;}
+
+.on
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/accordion-arrows.gif) no-repeat 105px -52px #F3F4F5 !important;}
+
+.over
+{background-color:#f3f4f5;}
+
+.listHeadline,.node-stellenausschreibung h2,.node-stellenausschreibung-es h2,.node-stellenausschreibung-en h2,.node-stellenausschreibung-hu h2,.node-stellenausschreibung-bs h2,.node-stellenausschreibung-fr h2,.node-stellenausschreibung-cn h2,.node-stellenausschreibung-kr h2,.node-stellenausschreibung-tr h2,.field-name-field-ihre-aufgaben .field-label,.field-name-field-ihr-profil .field-label,.field-name-field-ihre-aufgaben1 .field-label,.field-name-field-ihr-profil1 .field-label,.field-name-field-kurzbeschreibung .field-label
+{margin:0;padding:3px 10px 2px;background-color:#00667d;color:#FFFFFF;font-size:12px;font-weight:normal;width:322px;}
+
+.field-name-field-kurzbeschreibung  .field-item
+{background-color:#fff;border:1px solid #D3D7D9;padding:3px 10px 0;width:410px;}
+
+.listHeadline,.field-name-field-ihre-aufgaben .field-label,.field-name-field-ihr-profil .field-label,.field-name-field-ihre-aufgaben1 .field-label,.field-name-field-ihr-profil1 .field-label,.field-name-field-kurzbeschreibung .field-label
+{width:412px;}
+
+.group_jobkategorie_anrisstext
+{border:1px solid #D3D7D9;margin-top:-11px;width:340px;background-color:#FFFFFF;}
+
+.group_jobkategorie_anrisstext .field
+{padding:3px 10px 1px;font-size:12px;}
+
+.group_jobkategorie_anrisstext .field-name-field-beschaeftigungsart,.group_jobkategorie_anrisstext .field-name-field-fachbereich,.group_jobkategorie_anrisstext .field-name-field-arbeitsort,.group_jobkategorie_anrisstext .field-name-field-type-of-employment,.group_jobkategorie_anrisstext .field-name-field-munkakoer,.group_jobkategorie_anrisstext .field-name-field-tipo-de-empleo
+{border-bottom:1px dotted #939598;}
+
+.group_jobkategorie_anrisstext .field-name-field-beschaeftigungsart ul li,.group_jobkategorie_anrisstext  .field-name-field-arbeitsort ul li
+{margin:0;}
+
+.field-name-field-fachbereich .field-label,.field-name-field-kennziffer .field-label
+{font-weight:bold;}
+
+.group_jobkategorie_anrisstext .field-label
+{font-weight:normal;}
+
+.view-stellenb-rse .views-row-first > div
+{margin-top:15px;}
+
+.listHeadline,.group_stellenbeschreibung > div > div.field-label
+{margin-top:28px;}
+
+.normalList,.view-stellenb-rse .view-content,.group_stellenbeschreibung
+{background-color:#F9FBFA;padding:0 12px 20px;width:440px;float:left;}
+
+.page-jobs-and-careers-job-market-kr  .view-stellenb-rse .view-content,.page-jobs-and-careers-job-market-fr  .view-stellenb-rse .view-content,.page-allasok-es-karrierek-allasborze  .view-stellenb-rse .view-content,.page-is-ilanlari-kariyer  .view-stellenb-rse .view-content
+{width:490px;}
+
+.normalList
+{margin-top:20px;}
+
+.group_stellenbeschreibung a
+{color:#939598 !important;}
+
+.group_stellenbeschreibung a:hover
+{color:#00667d !important;}
+
+#stellenboerseSchnellverweis,.field-name-field-schnellverweis
+{background-color:#F9FBFA;padding:0 15px 18px 15px;position:relative;right:0;width:198px;float:right;font-size:14px;}
+
+.node-unterseite .field-name-field-schnellverweis
+{margin-top:20px;}
+
+.group_jobkategorie
+{border-bottom:1px dotted #939598;font-size:14px;line-height:24px;margin-bottom:30px;padding-bottom:30px;}
+
+.group_jobkategorie .field-label
+{font-size:14px;font-weight:normal;margin:0 5px 0 0;}
+
+.normalList ul,.field-name-field-ihre-aufgaben .field-items,.field-name-field-ihr-profil .field-items,.field-name-field-ihre-aufgaben1 .field-items,.field-name-field-ihr-profil1 .field-items
+{border:1px solid #D3D7D9;width:430px;margin-bottom:25px;}
+
+.normalList ul
+{padding:0;list-style-type:none;margin-top:0;}
+
+.normalList p
+{margin:15px 0 -15px;}
+
+.normalListAbsatz p
+{margin:15px 0 -5px;}
+
+.normalList ul li,.field-name-field-ihre-aufgaben .field-item,.field-name-field-ihr-profil .field-item,.field-name-field-ihre-aufgaben1 .field-item li,.field-name-field-ihr-profil1 .field-item li
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/list-items.gif) no-repeat scroll 11px 9px #FFFFFF;border-bottom:1px dotted #939598;padding:3px 10px 1px 24px;}
+
+.field-name-field-ihre-aufgaben1 ul,.field-name-field-ihr-profil1 ul
+{list-style:none;padding:0;margin:0;}
+
+.normalList ul li:last-child,.field-name-field-ihre-aufgaben .field-item:last-child,.field-name-field-ihr-profil .field-item:last-child,.field-name-field-ihre-aufgaben1 li:last-child,.field-name-field-ihr-profil1 li:last-child
+{border-bottom:none;}
+
+.field-name-field-schnellverweis .field-label,.field-name-field-schnellverweis h3
+{color:#00667d;font-weight:normal;margin:1em 0 0.5em;font-size:20px;}
+
+.size14
+{font-size:14px;}
+
+.arrowUp,.arrowRight
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/list-items.gif) no-repeat scroll 0 -88px #F9FBFA;margin-right:20px;padding-left:11px;}
+
+.arrowRight
+{background-position:0 -64px;}
+
+.arrowRightWhite
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/list-items.gif) no-repeat scroll 0 -111px #FFFFFF;padding-left:11px;color:#00667d;}
+
+.view-stellenb-rse
+{-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;-o-hyphens:auto;-hyphens:auto;hyphens:auto;}
+
+.node-type-einspaltige-seite h1#page-title
+{border-top:1px dotted #939598;margin:20px 0 -7px;padding-left:5px;padding-top:10px;}
+
+.selectCountry
+{list-style-type:none;color:#6d6e71;margin:-4px 0 0 -8px;padding:0;}
+
+.selectCountry li
+{border-bottom:1px dotted #939598;padding:7px 0 6px;width:320px;}
+
+.selectCountry a
+{color:#939598;}
+
+.selectCountry a:hover
+{color:#00667d;}
+
+.secondMenu
+{color:#939598;float:right;margin-left:20px;width:auto;}
+
+.secondMenu li
+{list-style-type:none;float:left;margin-left:10px;font-size:11px;}
+
+.kontakt-menu
+{border:none !important;}
+
+.kontakt-menu
+{color:#939598;margin:7px 0 0 !important;position:absolute;right:0;width:auto !important;}
+
+.kontakt-menu li
+{list-style-type:none;float:left;margin-left:9px;font-size:11px;}
+
+.kontakt-menu li a
+{color:#939598;}
+
+.kontakt-menu li a:hover
+{color:#00667d;}
+
+.accordionMore
+{color:#D6DC25;}
+
+.accordionMore:hover
+{color:#00667d;}
+
+.ui-state-active .accordionMore
+{display:none;}
+
+.ui-state-default .fieldEinleitung  p
+{display:inline;}
+
+#block-weather-system-1
+{margin-bottom:20px;}
+
+.weather
+{border-bottom:1px dotted #939598;line-height:19px;margin-left:192px;padding:7px 0 6px;width:320px;}
+
+.weather-image
+{margin:0 8px;height:auto;width:21px;}
+
+.wetterOrt,.wetterZeit,.wetterTrennslash,.wetterBild
+{float:left;}
+
+.wetterOrt
+{clear:left;color:#6d6e71;}
+
+.file a
+{color:#D6DC25 !important;background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/menu-leaf.gif) no-repeat scroll 0 -19px transparent;padding-left:10px;font-size:11px;}
+
+.file a:hover
+{color:#00667d !important;}
+
+.view-publikationen td,.view-pressebilder td
+{padding:0 7px 20px 0;vertical-align:top;}
+
+.views-field-title,.views-field-field-publikationen-text,.views-field-field-pressebild-1
+{width:210px;background-color:#F9FBFA;}
+
+.views-field-title
+{margin-top:10px;padding:10px 10px 0;color:#00667d;text-transform:uppercase;}
+
+.view-aktuelles .views-field-title
+{text-transform:none;}
+
+.views-field-field-publikationen-text
+{padding:5px 10px 0;}
+
+.views-field-field-pressebild-1
+{padding:0px 10px 7px}
+
+.views-field-field-pressebild-1 a
+{color:#D6DC25;}
+
+.views-field-field-pressebild-1 a:hover
+{color:#00667d;}
+
+.views-label-field-pressebild-1
+{float:left;margin-right:5px;color:#00667d;}
+
+.views-field-field-datei
+{padding:5px 15px 10px 10px;width:205px;background-color:#F9FBFA;}
+
+#views-exposed-form-publikationen-page .views-exposed-widgets
+{margin:10px 0;padding-bottom:7px;}
+
+#edit-submit-publikationen
+{margin:8px 0 0 291px;}
+
+.page-sajto-es-mediumok-publikaciok #edit-submit-publikationen
+{margin:8px 0 0 268px;}
+
+.page-basin-medya-yayinlar #edit-submit-publikationen
+{margin:8px 0 0 296px;}
+
+.view-id-publikationen img
+{border:1px solid #939598;}
+
+.ui-state-default,.ui-widget-content,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default,.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active
+{background:none;border:none;}
+
+.ui-state-default .ui-icon,.ui-state-active .ui-icon
+{display:none;}
+
+.ui-accordion-icons .ui-accordion-header a
+{padding-left:0;}
+
+.accordionButton
+{background-color:#F9FBFA;}
+
+.fieldDatum,.fieldDatumTermin
+{float:left;color:#939598;font-size:16px;line-height:22px;padding:1px 0 0 1px;}
+
+.view-termine  .accordionButton
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/accordion-arrows2.gif) no-repeat scroll 127px 11px #F9FBFA;}
+
+.view-termine .accordionButton:hover,.view-termine .ui-state-active .accordionButton
+{background-position:127px -27px;background-color:#f3f4f5;}
+
+.fieldVeranstaltungsbild
+{float:right;max-height:22px;}
+
+.fieldTitle
+{color:#00667d;float:right;text-transform:uppercase;font-size:12px;line-height:22px;}
+
+.ui-state-hover .fieldDatum,.ui-state-active .fieldDatum
+{color:#6d6e71;}
+
+.fieldTitleTermine
+{color:#00667d;text-transform:uppercase;font-size:12px;line-height:26px;padding-left:5px;}
+
+.fieldEinleitung,.ui-accordion-content
+{padding-left:5px !important;color:#6d6e71;width:580px;}
+
+.ui-accordion-content
+{margin-top:-10px !important;height:auto !important;}
+
+.ui-accordion h3
+{border-top:1px dotted #939598;margin-top:8px;margin-bottom:8px;}
+
+.view-termine .ui-accordion h3
+{border-top:none;}
+
+.ui-accordion h3.ui-state-active
+{margin-bottom:-22px !important;}
+
+.ui-corner-all
+{-webkit-border-radius:0;border-radius:0;}
+
+.view-termine-einfach .views-field-field-startdatum,.view-termine-einfach .views-field-field-enddatum
+{float:left;padding-left:4px;}
+
+.view-termine-einfach .views-field-field-enddatum
+{width:124px;}
+
+.view-termine-einfach .views-field-title
+{margin-top:0;padding:0;width:auto;background:none;}
+
+.view-termine-einfach .views-row
+{background-color:#F9FBFA;margin:5px;padding:6px;font-size:14px;}
+
+.pressekontakt
+{background-color:#F9FBFA;margin-top:20px;padding:10px 20px 15px 20px;width:460px;}
+
+.field-name-field-imagetext h3
+{font-size:24px;color:#00667d;margin-top:33px;}
+
+.pressekontakt h3
+{margin:0;padding:0;color:#00667d;font-size:17px;}
+
+.pressekontakt img
+{float:left;}
+
+.pressekontakt p
+{line-height:20px;margin:6px 0 0 240px;}
+
+.view-aktuelles
+{border-top:1px dotted #939598;}
+
+.date-display-single
+{color:#939598;}
+
+.aktuellesHeadline
+{background-color:#F9FBFA;height:22px;margin:0 0 12px;padding:6px 20px 5px 5px;}
+
+.view-aktuelles .views-field-title
+{background-color:#ffffff;padding:10px 0 0;margin-top:10px;width:auto;}
+
+.view-aktuelles .views-field-field-einleitung-anriss,.view-aktuelles .views-field-field-text
+{color:#6d6e71;clear:both;padding:0 5px;width:580px;}
+
+#kontaktForm
+{font-size:12px;line-height:22px;}
+
+#kontaktForm h1
+{display:block;}
+
+.kontaktKonzern,.kontaktThueringen,.kontaktSchnellverweis
+{background-color:#F9FBFA;height:160px;padding:15px;width:197px;margin-top:15px;}
+
+.kontaktKonzern
+{float:left;margin-right:10px;}
+
+.kontaktThueringen
+{float:left;}
+
+.kontaktSchnellverweis
+{float:right;height:110px;}
+
+.no-sidebars.node-type-webform h1#page-title
+{border-top:1px dotted #939598;border-bottom:1px dotted #939598;margin:20px 0 40px;padding:10px 5px 13px;}
+
+.no-sidebars form.webform-client-form
+{margin-top:171px;}
+
+.no-sidebars form#webform-client-form-416
+{margin-top:237px;}
+
+.no-sidebars .node-webform
+{margin-left:193px;}
+
+.no-sidebars.node-type-webform  .field-name-body
+{border-bottom:0px;}
+
+.schnellverweis
+{color:#00667d;font-size:20px;margin:0 0 0.5em;}
+
+#webform-component-vorname
+{padding-top:7px;}
+
+#webform-component-strasse
+{padding-top:0;}
+
+form.jqtransformdone #webform-component-nachricht label,form.jqtransformdone #webform-component-anrede label
+{margin-right:5px;}
+
+#node-60 button.jqTransformButton
+{margin:0 0 0 278px;}
+
+#kunden
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/kunden-bg.jpg) no-repeat 0 0 transparent;height:420px;margin-top:10px;width:710px;}
+
+ul.kunden
+{margin-top:183px;float:left;}
+
+.kunden  li
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/list-items.gif) no-repeat scroll 0 -63px transparent;color:#00667d;padding-left:11px;list-style-type:none;line-height:19px;}
+
+ul.kListe3
+{margin-left:96px;}
+
+.einleitungstext
+{border-bottom:1px dotted #939598;line-height:22px;margin-bottom:15px;padding:1px 10px 10px 6px;}
+
+.linksHeadline
+{background-color:#F9FBFA;font-size:16px;height:24px;margin:0 0 12px;padding:6px 20px 5px 6px;}
+
+img.linkarrow
+{float:none;margin:0 0 0 5px;}
+
+.linkListe p
+{border-bottom:1px dotted #939598;color:#6d6e71;padding:6px 10px 15px 6px;line-height:22px;}
+
+.page-sitemap #page-title
+{border-bottom:1px dotted #939598;border-top:1px dotted #939598;margin-top:20px;padding:10px 20px 14px 6px;}
+
+.site-map-box-menu
+{margin-left:166px;}
+
+.site-map-box-menu  h2
+{display:none;color:#6d6e71;}
+
+.site-map-box-menu  > div > ul.site-map-menu > li > a
+{color:#6d6e71;}
+
+.site-map-box-menu  > div > ul.site-map-menu > li > ul >li a
+{color:#939598;}
+
+ul.site-map-menu li a:hover
+{color:#00667d !important;}
+
+.site-map-menu
+{padding:0;line-height:22px;}
+
+.site-map-box-menu  > div > ul > li
+{border-bottom:1px dotted #939598;margin:15px 0;}
+
+.site-map-box-menu  > div > ul > li > ul > li
+{border-top:1px dotted #939598;margin-bottom:15px;padding-top:15px;}
+
+.site-map-box-menu  > div > ul > li > ul > li.first
+{border:none;}
+
+.site-map-box-menu  > div > ul > li > ul
+{margin-left:175px;margin-top:-36px;}
+
+.site-map-box-menu  > div > ul > li,.site-map-box-menu  > div > ul > li > ul > li,.site-map-box-menu  > div > ul > li > ul > li > ul > li
+{list-style-image:none;list-style-type:none;padding-left:11px;}
+
+.site-map-box-menu  > div > ul > li
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/sitemap-arrows.jpg) no-repeat 0 8px #ffffff;}
+
+.site-map-box-menu  > div > ul > li > ul > li
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/sitemap-arrows2.jpg) no-repeat 0 21px #ffffff;}
+
+.site-map-box-menu  > div > ul > li > ul > li > ul > li
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/sitemap-arrows2.jpg) no-repeat 0 8px #ffffff;}
+
+.site-map-box-menu  > div > ul > li > ul > li.last
+{display:none;}
+
+.site-map-box-menu  > div > ul > li > ul > li > ul
+{margin-left:230px;margin-top:-23px;}
+
+.i18n-de .site-map-menus:nth-child(2)
+{background:#ff0000;}
+
+.page-shop h1,.node-type-produktdisplay h4,.page-cart h1
+{color:#00667d;font-size:24px;line-height:1;border-top:1px dotted #D6D6D6;border-bottom:1px dotted #D6D6D6;margin:20px 0 20px;padding:10px 0 13px 5px;}
+
+.node-type-produktdisplay h4
+{margin-bottom:30px;}
+
+.view-display-products ul li
+{border:1px dotted #D6D6D6;list-style-type:none;font-size:12px;width:348px;float:left;margin:0 0 10px 0;}
+
+.empfehlung
+{border:1px dotted #D6D6D6;font-size:12px;width:486px;float:left;margin:0 0 10px 0;padding-bottom:10px;}
+
+.empfehlung a img
+{margin-left:24px;}
+
+.empfehlung2
+{background-color:#dbe2de;float:right;padding:10px;width:192px;height:282px;}
+
+.empfehlung2 img
+{background-color:#FFFFFF;margin-top:16px;padding:20px 6px;}
+
+.empfehlungHeadline
+{color:#FFFFFF;font-family:arial;font-size:22px;margin-bottom:-5px;}
+
+.empfehlungSubhead
+{color:#00667d;font-size:16px;}
+
+.empfehlung2Box
+{background-color:#FFFFFF;font-size:11px;height:40px;line-height:18px;margin-top:10px;padding:9px 9px 5px;}
+
+.empfehlung2Box h2
+{font-size:11px !important;}
+
+.empfehlungSubtext
+{}
+
+.page-shop .view-content .node
+{border:none;}
+
+.view-display-products ul li img
+{margin-left:9px;}
+
+.page-shop .node-teaser
+{margin-bottom:4px;padding-top:0;}
+
+.view-display-products ul li.views-row-odd
+{margin-right:10px;}
+
+.view-display-products .node-readmore
+{display:none;}
+
+.view-display-products h2,.produktNameBox h2,.empfehlung2Box h2
+{float:left;font-size:12px;text-transform:uppercase;margin:0;}
+
+.field-name-commerce-price
+{margin:0;text-align:right;}
+
+.produktNameBox
+{background-color:#F9FBFA;margin:0 10px;padding:6px 15px 6px;}
+
+.produktbildBox
+{border:1px dotted #D6D6D6;float:left;}
+
+.produktbildZoom
+{margin:0 0 10px 0;}
+
+.produktbildZoom  a
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/zoom.jpg) no-repeat 0 0 #fff;color:#939598;line-height:15px;margin:0 0 10px 10px;padding:0 0 0 19px;}
+
+.node-type-produktdisplay h1#page-title
+{font-size:14px;text-transform:uppercase;background-color:#F9FBFA;margin:0 0 15px 0;padding:7px 15px;}
+
+.node-type-produktdisplay  #sidebar-first .section,.page-shop #sidebar-first .section
+{padding-top:0;margin-top:-5px;}
+
+.produktbeschreibungBox
+{border-top:1px dotted #D6D6D6;min-height:220px;margin-left:350px;padding:10px 0 0;}
+
+.produktbeschreibungBox .field-name-body
+{font-size:12px;line-height:22px;border-bottom:none;}
+
+.produktbeschreibungBox .field-name-commerce-price
+{text-align:left;float:left;margin:0 10px 0px 0;padding:7px 15px;font-size:14px;color:#00667d;}
+
+.form-item-quantity label
+{padding-top:3px;width:50px;}
+
+.form-item-quantity input
+{width:20px;}
+
+.form-item-quantity
+{background-color:#F9FBFA;height:29px;height:27px;padding-top:3px;padding-right:15px;text-align:right;}
+
+.node-type-produktdisplay .tabs,.node-type-produktdisplay  .node
+{display:none;}
+
+.form-item-extra-pane--node--507-termsofservice input
+{vertical-align:top;}
+
+.form-item-extra-pane--node--507-termsofservice label
+{width:560px;}
+
+.form-item-extra-pane--node--507-termsofservice label .form-required
+{display:none;}
+
+.field-name-field-sternchentext
+{font-size:10px;position:relative;top:-80px;padding-left:7px;}
+
+.sternchentext
+{font-size:10px;}
+
+.page-checkout-user .sternchentext
+{display:none;}
+
+.messages.commerce-add-to-cart-confirmation
+{height:294px;border-color:#00667d;}
+
+.view-confirm-message-product-display .commerce-product-title-label
+{display:none;}
+
+.messages.commerce-add-to-cart-confirmation .added-product-title,.messages.commerce-add-to-cart-confirmation .commerce-product-title,.messages.commerce-add-to-cart-confirmation .views-field-commerce-total .field-content
+{color:#00667d !important;}
+
+.ua-chrome .views-field-commerce-total .field-content
+{margin-top:-24px;}
+
+.ua-chrome li.line-item-summary-checkout a
+{margin-top:-6px;}
+
+.messages.commerce-add-to-cart-confirmation .checkout,.messages.commerce-add-to-cart-confirmation .continue:hover
+{background-color:#00667d !important;}
+
+.messages.commerce-add-to-cart-confirmation .checkout:hover
+{background-color:#D6DC25 !important;}
+
+.messages.commerce-add-to-cart-confirmation .message-inner .button-wrapper
+{background-color:#F9FBFA !important;}
+
+.shopUebersichtLink
+{font-size:12px;padding-bottom:6px;border-bottom:1px dotted #D6D6D6;}
+
+.shopUebersichtLink  a
+{color:#00667d !important;}
+
+.shopUebersichtLink  a:hover
+{color:#6d6e71 !important;}
+
+.shopUebersichtLink.first
+{margin-top:22px;}
+
+#block-commerce-cart-cart h2
+{border-top:none;border-bottom:1px dotted #D6D6D6;padding-bottom:6px;padding-top:10px;}
+
+#views-form-commerce-cart-form-default
+{margin-top:-51px;}
+
+.view-commerce-cart-form tr,.view-commerce-cart-summary tr
+{vertical-align:bottom;}
+
+.page-checkout .view-commerce-cart-summary tr.even
+{background-color:#FFFFFF;border-bottom:1px dotted #D6D6D6;border-top:1px dotted #D6D6D6;}
+
+#views-form-commerce-cart-form-default tr.even,tr.odd
+{background-color:#ffffff;border-bottom:none;padding:0;}
+
+#views-form-commerce-cart-form-default .views-field-field-produktbild-1
+{padding:10px 10px 0 0;}
+
+#views-form-commerce-cart-form-default .views-field-field-produktbild-1 img
+{border:1px dotted #D6D6D6;padding:15px 0;}
+
+#views-form-commerce-cart-form-default > div > table td
+{line-height:0;padding-bottom:15px;text-transform:uppercase;font-size:14px;}
+
+#views-form-commerce-cart-form-default .views-field-line-item-title
+{border-bottom:1px dotted #D6D6D6;width:276px;}
+
+#views-form-commerce-cart-form-default .views-field-commerce-unit-price
+{border-bottom:1px dotted #D6D6D6;min-width:60px;color:#00667d;}
+
+#views-form-commerce-cart-form-default .views-field-edit-quantity
+{border-bottom:1px dotted #D6D6D6;min-width:60px;padding-bottom:3px;}
+
+#views-form-commerce-cart-form-default .views-field-edit-delete
+{border-bottom:1px dotted #D6D6D6;width:92px;padding-bottom:0;}
+
+#views-form-commerce-cart-form-default .views-field-commerce-total
+{border-bottom:1px dotted #D6D6D6;min-width:60px;color:#00667d;}
+
+.views-field-edit-quantity input.form-text
+{width:20px;}
+
+.views-field-edit-delete input.delete-line-item
+{margin-bottom:8px;}
+
+.commerce-order-handler-area-order-total
+{margin:24px 20px 0 0;}
+
+.commerce-price-formatted-components tr
+{border-bottom:1px dotted #D6D6D6;color:#6d6e71;height:26px;}
+
+.commerce-price-formatted-components tr.component-type-taxmehrwertsteuer
+{display:none;border-bottom:1px solid #D6DC25 !important;}
+
+.component-total
+{font-style:italic;color:#939598;}
+
+.commerce-order-handler-area-order-total .commerce-price-formatted-components
+{width:258px;}
+
+.view-commerce-cart-summary .commerce-price-formatted-components
+{margin-bottom:12px;margin-right:-15px;}
+
+.component-type-commerce-price-formatted-amount .component-total
+{color:#00667d;}
+
+.component-type-commerce-price-formatted-amount
+{font-weight:normal !important;}
+
+#edit-checkout-review tr.even,#edit-checkout-review tr.odd
+{background:none;border:none;}
+
+.view-commerce-cart-form .view-header
+{margin-left:428px;margin-top:5px;padding:10px 0 0 0;border-bottom:none;border-top:1px dotted #D6D6D6;position:relative;}
+
+.view-commerce-cart-form .view-header div
+{background-color:#F9FBFA;color:#00667d;margin-bottom:0;margin-right:0;padding:0 10px;position:relative;}
+
+.commerce-add-to-cart input.form-submit,.commerce-line-item-actions input.form-submit,#commerce-checkout-form-checkout #edit-continue,#commerce-checkout-form-checkout #edit-cancel,#commerce-checkout-form-review #edit-continue,#commerce-checkout-form-review #edit-back,#user-register-form  #edit-submit,#user-login #edit-submit,#user-pass #edit-submit
+{clear:both;background:none #00667d;color:#ffffff;text-transform:uppercase;font-size:14px;margin-top:36px;border:none;-khtml-border-radius:6px 6px 6px 6px;-moz-border-radius:6px 6px 6px 6px;-webkit-border-radius:6px 6px 6px 6px;border-radius:6px 6px 6px 6px;}
+
+.commerce-add-to-cart input.form-submit:hover,.commerce-line-item-actions input.form-submit:hover,#commerce-checkout-form-checkout #edit-continue:hover,#commerce-checkout-form-checkout #edit-cancel:hover,#commerce-checkout-form-review #edit-continue:hover,#commerce-checkout-form-review #edit-back:hover,#user-register-form  #edit-submit:hover,#user-login #edit-submit:hover,#user-pass #edit-submit:hover
+{background:none #D6DC25;color:#00667d;text-decoration:none;;}
+
+#edit-continue:active
+{text-shadow:none;}
+
+#user-register-form  #edit-submit,#user-login #edit-submit,#user-pass #edit-submit
+{margin-top:0;}
+
+#commerce-checkout-form-checkout .button-operator,#commerce-checkout-form-review .button-operator,#commerce-checkout-form-checkout .checkout-processing,#commerce-checkout-form-review .checkout-processing
+{display:none;}
+
+#commerce-checkout-form-checkout select
+{font-size:12px;padding:1px 0 1px 1px;}
+
+.views-field-edit-delete input.form-submit
+{clear:both;background:none #00667d;color:#ffffff;border:none;-khtml-border-radius:10px 10px 10px 10px;-moz-border-radius:10px 10px 10px 10px;-webkit-border-radius:10px 10px 10px 10px;border-radius:10px 10px 10px 10px;}
+
+.commerce-line-item-actions input.form-submit
+{margin-top:0;}
+
+.commerce-line-item-actions input#edit-submit
+{margin-bottom:45px;margin-right:10px;}
+
+.commerce-add-to-cart input.form-submit:hover,.commerce-line-item-actions input.form-submit:hover,.views-field-edit-delete input.form-submit:hover
+{background:none #D6DC25;color:#00667d;}
+
+#commerce-checkout-form-checkout fieldset,#commerce-checkout-form-review fieldset,#edit-checkout-review
+{background-color:#F9FBFA;border:none;margin:25px 0 0 0;padding:15px;}
+
+#commerce-checkout-form-checkout fieldset legend,#commerce-checkout-form-review fieldset legend,#edit-checkout-review .pane-title td,.field-name-commerce-customer-billing  .field-label,.field-name-commerce-customer-shipping .field-label
+{background:#F9FBFA;color:#00667d;text-transform:uppercase;font-size:14px;padding:10px 0 0 9px;font-weight:normal;}
+
+#commerce-checkout-form-checkout fieldset#edit-buttons,#commerce-checkout-form-review fieldset#edit-buttons
+{background:none;margin:0;padding:0;}
+
+#commerce-checkout-form-checkout fieldset#edit-buttons input,#commerce-checkout-form-review fieldset#edit-buttons input
+{margin-top:0;margin-bottom:30px;}
+
+#commerce-checkout-form-checkout .fieldset-wrapper,#commerce-checkout-form-review .fieldset-wrapper
+{margin-top:30px;}
+
+.field-name-commerce-customer-address
+{color:#6d6e71;}
+
+.view-commerce-cart-summary table
+{width:655px;color:#00667d;}
+
+.view-commerce-cart-summary table td.views-field-field-produktbild
+{width:80px;padding-top:9px !important;}
+
+.view-commerce-cart-summary table td.views-field-line-item-title
+{width:297px;}
+
+#commerce-checkout-form-review .view-commerce-cart-summary td
+{padding:5px;}
+
+.view-commerce-cart-block table
+{width:175px;}
+
+.view-commerce-cart-block table tr td
+{padding:5px 0;}
+
+.view-commerce-cart-block table tr td.views-field-line-item-title
+{padding-left:6px;}
+
+.view-commerce-cart-block .line-item-quantity
+{display:none;}
+
+.view-commerce-cart-block .line-item-total .line-item-total-raw
+{color:#00667d;line-height:24px;}
+
+.view-commerce-cart-block ul.links
+{display:block;text-align:left;}
+
+.view-commerce-cart-block .links li.line-item-summary-view-cart
+{float:left;}
+
+.view-commerce-cart-block .links li.line-item-summary-checkout
+{float:right;}
+
+.view-commerce-cart-block .links li.line-item-summary-view-cart a,.view-commerce-cart-block .links li.line-item-summary-checkout a
+{border:1px solid #00667d;display:block;padding:2px 0;text-align:center;width:104px;}
+
+.view-commerce-cart-block .links li.line-item-summary-checkout a
+{width:60px;margin-right:-4px;}
+
+#node-509
+{border:none;}
+
+.optionRechnung
+{margin:0 5px;position:relative;top:-2px;}
+
+.view-commerce-user-orders .views-field-created
+{padding:5px 10px;width:162px;}
+
+.view-commerce-user-orders .views-field-order-number
+{padding:5px 10px;}
+
+.view-commerce-user-orders tr.even
+{border:none;}
+
+.view-commerce-user-orders tr.even td.views-field-order-number
+{background-color:#EDEDED;}
+
+.view-commerce-user-orders tr.odd td.views-field-order-number
+{background-color:#FFFFFF;}
+
+.page-user-edit #edit-locale
+{display:none;}
+
+.page-user-addressbook-billing ul.action-links,.page-user-addressbook-billing ul.action-links li
+{margin:0;padding:0;}
+
+#block-block-34
+{margin-top:30px;}
+
+#block-block-27
+{margin-top:55px;}
+
+th
+{border-bottom:1px solid #D6D6D6;color:#6d6e71;padding-right:5px;font-weight:normal;}
+
+.checkout-completion-message
+{margin-bottom:80px;}
+
+.page-checkout-complete .zumWarenkorb
+{display:none;}
+
+.page-checkout h1#page-title
+{margin-top:13px;}
+
+.page-checkout .indicationTop ol.commerce-checkout-progress
+{margin-top:19px;padding-bottom:6px;padding-left:19px;border-bottom:1px dotted #D6D6D6;border-top:none;}
+
+.page-checkout ol.commerce-checkout-progress
+{padding-left:19px;border-top:1px dotted #D6D6D6;}
+
+.page-shop #block-block-24 .sternchentext,.page-checkout-review #block-block-24
+{display:none;}
+
+ol.inline.commerce-checkout-progress li.active
+{color:#00667d;}
+
+ol.inline.commerce-checkout-progress li.first
+{width:248px;}
+
+ol.inline.commerce-checkout-progress li
+{width:280px;}
+
+ol.inline.commerce-checkout-progress li.last
+{width:160px;text-align:right;}
+
+.view-commerce-line-item-table table
+{width:900px;}
+
+.view-display-id-default td.views-field-line-item-title
+{width:472px;}
+
+.field-name-commerce-order-total .commerce-price-formatted-components
+{}
+
+.password-strength
+{width:13em;}
+
+.field-name-commerce-order-total .commerce-price-formatted-components tr.component-type-commerce-price-formatted-amount,tr.component-type-taxmehrwertsteuer
+{background:none;}
+
+.field-name-commerce-customer-billing  .field-items,.field-name-commerce-customer-shipping .field-items
+{padding:5px;}
+
+#shopFooter
+{border:1px dotted #D6D6D6;font-size:11px;padding:8px;clear:both;}
+
+#shopFooter > div
+{background-color:#F9FBFA;height:48px;padding-top:8px;}
+
+.shopFooterBox
+{float:left;padding:2px 0 2px 11px;}
+
+.sFB1
+{width:252px;}
+
+.sFB2
+{width:200px;border-left:1px solid #D6DC25;border-right:1px solid #D6DC25;}
+
+.sFB3
+{width:200px;}
+
+.shopFooterHeadline
+{color:#6d6e71;font-size:12px;}
+
+.form-type-password-confirm .description
+{display:none;}
+
+#Stage_index_4_4_spotKorea_Standort,#Stage_index_4_4_spotChina_Standort
+{opacity:0;}
+
+a.fluid-slideshow
+{width:230px;height:215px;display:block;float:right;}
+
+a.fluid-slideshow.fluid-de
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/fluid-slideshow.jpg) no-repeat 0 0;}
+
+a.fluid-slideshow.fluid-en
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/fluid-slideshow-en.jpg) no-repeat 0 0;}
+
+a.fluid-slideshow.fluid-fr
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/fluid-slideshow-fr.jpg) no-repeat 0 0;}
+
+a.fluid-slideshow.fluid-bs
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/fluid-slideshow-bs.jpg) no-repeat 0 0;}
+
+a.moulding-slideshow
+{width:230px;height:215px;display:block;float:right;}
+
+a.moulding-slideshow.moulding-de
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/moulding-slideshow.jpg) no-repeat 0 0;}
+
+a.moulding-slideshow.moulding-en
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/moulding-slideshow-en.jpg) no-repeat 0 0;}
+
+a.moulding-slideshow.moulding-fr
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/moulding-slideshow-fr.jpg) no-repeat 0 0;}
+
+a.moulding-slideshow.moulding-bs
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/moulding-slideshow-bs.jpg) no-repeat 0 0;}
+
+a.thermo-slideshow
+{width:350px;height:215px;display:block;float:right;}
+
+a.thermo-slideshow.thermo-de
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/thermo-slideshow.jpg) no-repeat 0 0;}
+
+a.thermo-slideshow.thermo-en
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/thermo-slideshow-en.jpg) no-repeat 0 0;}
+
+a.thermo-slideshow.thermo-fr
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/thermo-slideshow-fr.jpg) no-repeat 0 0;}
+
+a.thermo-slideshow.thermo-bs
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/thermo-slideshow-bs.jpg) no-repeat 0 0;}
+
+a.thermo-slideshow.thermo-hu
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/thermo-slideshow-hu.jpg) no-repeat 0 0;}
+
+a.thermo-slideshow.thermo-kr
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/thermo-slideshow-kr.jpg) no-repeat 0 0;}
+
+a.thermo-slideshow.thermo-es
+{background:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/produktslider/thermo-slideshow-es.jpg) no-repeat 0 0;}
+
+a.fluid-slideshow:hover,a.moulding-slideshow:hover,a.thermo-slideshow:hover
+{background-position:0 -215px;}
+
+#cboxClose,#cboxNext,#cboxPrevious
+{background-image:
+url(https://www.veritas.ag/sites/all/themes/veritas/images/controls.png)}
+
+.node-type-uploads-aufsichtsrat .file-icon
+{display:inline;margin-bottom:-4px;}
+
+.node-type-uploads-aufsichtsrat  ul.download-file
+{list-style-type:none;padding-left:194px;}
+
+.node-type-uploads-aufsichtsrat  ul.download-file li
+{height:30px;}
+
+.node-type-uploads-aufsichtsrat  ul.download-file li a .detail
+{color:#939598;}
+
+.node-type-uploads-aufsichtsrat #edit-field-datei-upload-und-table
+{width:100%}
+
+.node-type-uploads-aufsichtsrat .file a
+{background:none;color:#00667D !important;font-size:11px;padding-left:0;line-height:30px;}
+
+.node-type-uploads-aufsichtsrat .fieldset-legend
+{color:#00667D;font-weight:bold;margin-left:9px;}
+
+.node-type-uploads-aufsichtsrat .form-item-title
+{display:none;}
+
+.node-type-uploads-aufsichtsrat label
+{width:170px;margin:20px 0 5px 5px;}
+
+.node-type-uploads-aufsichtsrat .description
+{font-size:0.85em;margin:5px 0 0 5px;}
+
+.page-node-743 .item-list
+{display:none;}
+
+.node-type-aufsichtsrat .file-icon
+{display:inline;margin-bottom:-4px;}
+
+.node-type-aufsichtsrat ul.download-file
+{list-style-type:none;padding-left:194px;}
+
+.node-type-aufsichtsrat ul.download-file li
+{height:30px;}
+
+.node-type-aufsichtsrat ul.download-file li a .detail
+{color:#939598;}
+
+.node-type-aufsichtsrat .sticky-table
+{width:100%}
+
+.node-type-aufsichtsrat .file a
+{background:none;color:#00667D !important;font-size:11px;padding-left:0;line-height:30px;}
+
+.node-type-aufsichtsrat .fieldset-legend
+{color:#00667D;font-weight:bold;margin-left:9px;}
+
+.node-type-aufsichtsrat .form-item-title
+{display:none;}
+
+.node-type-aufsichtsrat label
+{width:170px;margin:20px 0 5px 5px;}
+
+.node-type-aufsichtsrat .description
+{font-size:0.85em;margin:5px 0 0 5px;}
+
+.page-node-908 .item-list
+{display:none;}
+
+.productlist
+{display:none;}
+
+.productlist.content0
+{display:block;}
+
+.field-name-field-content-auswahl
+{left:-185px;position:absolute;margin-top:24px;}
+
+.field-name-field-content-auswahl .jqTransformSelectWrapper
+{width:172px !important;}
+
+.field-name-field-content-auswahl .jqTransformSelectWrapper ul
+{width:172px !important;}
+
+.webform-component--datenschutzhinweis label
+{display:none !important;}
+
+.webform-component--datenschutzhinweis a.jqTransformChecked,.webform-component--datenschutzhinweis a.jqTransformCheckbox
+{margin:-3px 10px 40px 0;}
+
+.webform-component--datenschutzhinweis
+{margin:68px 0 20px 108px;}
+
+#Stage_index_7_7_spotHalberstadt
+{display:none;}
+
+body.page-shop #block-block-24.contextual-links-region
+{clear:both;}
